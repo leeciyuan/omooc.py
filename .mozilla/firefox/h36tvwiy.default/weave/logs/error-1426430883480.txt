@@ -1,0 +1,5 @@
+1426430883477	Sync.ErrorHandler	DEBUG	Flushing file log.
+1426430883479	Sync.BrowserIDManager	ERROR	Background fetch for key bundle failed: null: null
+1426430883479	Sync.BrowserIDManager	ERROR	Could not authenticate: null: null
+1426430883479	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1426430883479	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

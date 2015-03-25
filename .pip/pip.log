@@ -1,0 +1,175 @@
+Downloading/unpacking shadowsocks
+  Getting page https://pypi.python.org/simple/shadowsocks/
+  URLs to search for versions for shadowsocks:
+  * https://pypi.python.org/simple/shadowsocks/
+  Analyzing links from page https://pypi.python.org/simple/shadowsocks/
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-1.3.0.tar.gz#md5=452ebf175ca1e0084fb0c9c734f01a15 (from https://pypi.python.org/simple/shadowsocks/), version: 1.3.0
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-1.3.1.tar.gz#md5=0e7f758af844ef40bc8c1759a64e86a1 (from https://pypi.python.org/simple/shadowsocks/), version: 1.3.1
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-1.3.2.tar.gz#md5=1c064a3246314e5c131f7f7a87908012 (from https://pypi.python.org/simple/shadowsocks/), version: 1.3.2
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-1.3.3.tar.gz#md5=b193d70e9103cc954aa5f8749802cd6a (from https://pypi.python.org/simple/shadowsocks/), version: 1.3.3
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-1.3.4.tar.gz#md5=de750dfc54248f30bcb3d6127cdf9b29 (from https://pypi.python.org/simple/shadowsocks/), version: 1.3.4
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-1.3.5.tar.gz#md5=34ba726cd6e5eb124f3049cbef89f0c9 (from https://pypi.python.org/simple/shadowsocks/), version: 1.3.5
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-1.3.6.tar.gz#md5=952807b0153535816d719668ed8577e2 (from https://pypi.python.org/simple/shadowsocks/), version: 1.3.6
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-1.3.7.tar.gz#md5=edf0e82d73e3db7356f6db49b4104e9c (from https://pypi.python.org/simple/shadowsocks/), version: 1.3.7
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-1.4.0.tar.gz#md5=fc0f6a04e6a529d96cadadde59f3977b (from https://pypi.python.org/simple/shadowsocks/), version: 1.4.0
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-1.4.1.tar.gz#md5=af7853f9aa2ac2dc7d40af3c5d8af9aa (from https://pypi.python.org/simple/shadowsocks/), version: 1.4.1
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-1.4.2.tar.gz#md5=4a654c96f273aec112943d2864939249 (from https://pypi.python.org/simple/shadowsocks/), version: 1.4.2
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-1.4.3.tar.gz#md5=3515f8bdac2d03ddb8dc3b0df2a82df3 (from https://pypi.python.org/simple/shadowsocks/), version: 1.4.3
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-1.4.4.tar.gz#md5=0edb06abe36b27506795a2a89a9933ef (from https://pypi.python.org/simple/shadowsocks/), version: 1.4.4
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-1.4.5.tar.gz#md5=60c4f2929877207e7503c785f0ed47cc (from https://pypi.python.org/simple/shadowsocks/), version: 1.4.5
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.0.1.tar.gz#md5=9c8346a0a0c0869ad026d60bc34af585 (from https://pypi.python.org/simple/shadowsocks/), version: 2.0.1
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.0.10.tar.gz#md5=e6a711d3c4741a44b4d23216bff8050b (from https://pypi.python.org/simple/shadowsocks/), version: 2.0.10
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.0.11.tar.gz#md5=262383f948499c8d3165ae3790b8f917 (from https://pypi.python.org/simple/shadowsocks/), version: 2.0.11
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.0.12.tar.gz#md5=c05f0c0535b9340490863b5526b28cfa (from https://pypi.python.org/simple/shadowsocks/), version: 2.0.12
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.0.2.tar.gz#md5=79fb53bc46623a4e5c30e92d5e3a19f6 (from https://pypi.python.org/simple/shadowsocks/), version: 2.0.2
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.0.3.tar.gz#md5=a5c504beb14351817eddf4f7756298e6 (from https://pypi.python.org/simple/shadowsocks/), version: 2.0.3
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.0.4.tar.gz#md5=6528bef3016b3bc31c8ceabecc0b3cc4 (from https://pypi.python.org/simple/shadowsocks/), version: 2.0.4
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.0.5.tar.gz#md5=2da718286dd9a96b00b923aedfd50042 (from https://pypi.python.org/simple/shadowsocks/), version: 2.0.5
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.0.6.tar.gz#md5=c2ad5c42d69cfabcf9fefd1a3b0895f7 (from https://pypi.python.org/simple/shadowsocks/), version: 2.0.6
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.0.7.tar.gz#md5=7a4288479d5d0b5228b7432909498ebc (from https://pypi.python.org/simple/shadowsocks/), version: 2.0.7
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.0.8.tar.gz#md5=dead77958be812be725b6a2315f96521 (from https://pypi.python.org/simple/shadowsocks/), version: 2.0.8
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.0.9.tar.gz#md5=841fb63b48ed1a1ad8ec767d05d8c6a9 (from https://pypi.python.org/simple/shadowsocks/), version: 2.0.9
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.0.tar.gz#md5=004e97b4e47b56b83a4105e8a390531d (from https://pypi.python.org/simple/shadowsocks/), version: 2.0
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.1.0.tar.gz#md5=3a6cc0f628b4e4d4e2de79b5caacd18e (from https://pypi.python.org/simple/shadowsocks/), version: 2.1.0
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.2.0.tar.gz#md5=dc9dc668928cb35d212b40711407e867 (from https://pypi.python.org/simple/shadowsocks/), version: 2.2.0
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.2.1.tar.gz#md5=c54de0460f4f78538446fd7eeb29429e (from https://pypi.python.org/simple/shadowsocks/), version: 2.2.1
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.2.2.tar.gz#md5=add798b1ac470c828948269c2abbab9e (from https://pypi.python.org/simple/shadowsocks/), version: 2.2.2
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.3.1.tar.gz#md5=734041dcfadf6ff77168163b3ccd3aa9 (from https://pypi.python.org/simple/shadowsocks/), version: 2.3.1
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.3.2.tar.gz#md5=03aaec603b20cd8e6f1f17d67e339834 (from https://pypi.python.org/simple/shadowsocks/), version: 2.3.2
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.3.tar.gz#md5=82742cb44495571a27a63b4f3a7bd352 (from https://pypi.python.org/simple/shadowsocks/), version: 2.3
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.4.1.tar.gz#md5=67ef8b39381875de557f435232018e61 (from https://pypi.python.org/simple/shadowsocks/), version: 2.4.1
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.4.2.tar.gz#md5=8a919afd2416f5940a79d22a008e45b2 (from https://pypi.python.org/simple/shadowsocks/), version: 2.4.2
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.4.3.tar.gz#md5=18f9f0691ffc4383f4b66ea44dc6d176 (from https://pypi.python.org/simple/shadowsocks/), version: 2.4.3
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.4.tar.gz#md5=3c2e20064f4001a51950432108774c50 (from https://pypi.python.org/simple/shadowsocks/), version: 2.4
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.5.tar.gz#md5=64e29de98af4a1a499c51156d26f68fb (from https://pypi.python.org/simple/shadowsocks/), version: 2.5
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.6.1.tar.gz#md5=197dad879d82db687ed83e23d2578524 (from https://pypi.python.org/simple/shadowsocks/), version: 2.6.1
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.6.2.tar.gz#md5=d91565dfd8390db7a2e22116988b3b69 (from https://pypi.python.org/simple/shadowsocks/), version: 2.6.2
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.6.3.tar.gz#md5=421d5016bc66b46ade283b5a51eed537 (from https://pypi.python.org/simple/shadowsocks/), version: 2.6.3
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.6.4.tar.gz#md5=8b7d79e4249add6d7ded6afd6bfebffc (from https://pypi.python.org/simple/shadowsocks/), version: 2.6.4
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.6.5.tar.gz#md5=17e06bd6aaa50995b6092526bf3b9e17 (from https://pypi.python.org/simple/shadowsocks/), version: 2.6.5
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.6.6.tar.gz#md5=df600d5b4d185a381fab6f9afc4a50eb (from https://pypi.python.org/simple/shadowsocks/), version: 2.6.6
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.6.7.tar.gz#md5=9041b17e5a5707a47982473fa6087af8 (from https://pypi.python.org/simple/shadowsocks/), version: 2.6.7
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.6.8.tar.gz#md5=b6ace54bbdac63525b930f96249034ac (from https://pypi.python.org/simple/shadowsocks/), version: 2.6.8
+    Found link https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.6.tar.gz#md5=b6204534ef590760795032645beb9e48 (from https://pypi.python.org/simple/shadowsocks/), version: 2.6
+  Using version 2.6.8 (newest of versions: 2.6.8, 2.6.7, 2.6.6, 2.6.5, 2.6.4, 2.6.3, 2.6.2, 2.6.1, 2.6, 2.5, 2.4.3, 2.4.2, 2.4.1, 2.4, 2.3.2, 2.3.1, 2.3, 2.2.2, 2.2.1, 2.2.0, 2.1.0, 2.0.12, 2.0.11, 2.0.10, 2.0.9, 2.0.8, 2.0.7, 2.0.6, 2.0.5, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.3.7, 1.3.6, 1.3.5, 1.3.4, 1.3.3, 1.3.2, 1.3.1, 1.3.0)
+  Downloading shadowsocks-2.6.8.tar.gz
+  Downloading from URL https://pypi.python.org/packages/source/s/shadowsocks/shadowsocks-2.6.8.tar.gz#md5=b6ace54bbdac63525b930f96249034ac (from https://pypi.python.org/simple/shadowsocks/)
+  Running setup.py (path:/tmp/pip_build_zhang/shadowsocks/setup.py) egg_info for package shadowsocks
+    running egg_info
+    creating pip-egg-info/shadowsocks.egg-info
+    writing pip-egg-info/shadowsocks.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/shadowsocks.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/shadowsocks.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/shadowsocks.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/shadowsocks.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/shadowsocks.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/shadowsocks.egg-info/SOURCES.txt'
+  Source in /tmp/pip_build_zhang/shadowsocks has version 2.6.8, which satisfies requirement shadowsocks
+Installing collected packages: shadowsocks
+  Running setup.py install for shadowsocks
+    Running command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_zhang/shadowsocks/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-zPlTLx-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-i686-2.7
+    creating build/lib.linux-i686-2.7/shadowsocks
+    copying shadowsocks/udprelay.py -> build/lib.linux-i686-2.7/shadowsocks
+    copying shadowsocks/__init__.py -> build/lib.linux-i686-2.7/shadowsocks
+    copying shadowsocks/shell.py -> build/lib.linux-i686-2.7/shadowsocks
+    copying shadowsocks/local.py -> build/lib.linux-i686-2.7/shadowsocks
+    copying shadowsocks/tcprelay.py -> build/lib.linux-i686-2.7/shadowsocks
+    copying shadowsocks/common.py -> build/lib.linux-i686-2.7/shadowsocks
+    copying shadowsocks/server.py -> build/lib.linux-i686-2.7/shadowsocks
+    copying shadowsocks/daemon.py -> build/lib.linux-i686-2.7/shadowsocks
+    copying shadowsocks/encrypt.py -> build/lib.linux-i686-2.7/shadowsocks
+    copying shadowsocks/lru_cache.py -> build/lib.linux-i686-2.7/shadowsocks
+    copying shadowsocks/eventloop.py -> build/lib.linux-i686-2.7/shadowsocks
+    copying shadowsocks/asyncdns.py -> build/lib.linux-i686-2.7/shadowsocks
+    creating build/lib.linux-i686-2.7/shadowsocks/crypto
+    copying shadowsocks/crypto/openssl.py -> build/lib.linux-i686-2.7/shadowsocks/crypto
+    copying shadowsocks/crypto/__init__.py -> build/lib.linux-i686-2.7/shadowsocks/crypto
+    copying shadowsocks/crypto/rc4_md5.py -> build/lib.linux-i686-2.7/shadowsocks/crypto
+    copying shadowsocks/crypto/util.py -> build/lib.linux-i686-2.7/shadowsocks/crypto
+    copying shadowsocks/crypto/sodium.py -> build/lib.linux-i686-2.7/shadowsocks/crypto
+    copying shadowsocks/crypto/table.py -> build/lib.linux-i686-2.7/shadowsocks/crypto
+    running install_lib
+    creating /usr/local/lib/python2.7/dist-packages/shadowsocks
+    error: could not create '/usr/local/lib/python2.7/dist-packages/shadowsocks': Permission denied
+    Complete output from command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_zhang/shadowsocks/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-zPlTLx-record/install-record.txt --single-version-externally-managed --compile:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-i686-2.7
+
+creating build/lib.linux-i686-2.7/shadowsocks
+
+copying shadowsocks/udprelay.py -> build/lib.linux-i686-2.7/shadowsocks
+
+copying shadowsocks/__init__.py -> build/lib.linux-i686-2.7/shadowsocks
+
+copying shadowsocks/shell.py -> build/lib.linux-i686-2.7/shadowsocks
+
+copying shadowsocks/local.py -> build/lib.linux-i686-2.7/shadowsocks
+
+copying shadowsocks/tcprelay.py -> build/lib.linux-i686-2.7/shadowsocks
+
+copying shadowsocks/common.py -> build/lib.linux-i686-2.7/shadowsocks
+
+copying shadowsocks/server.py -> build/lib.linux-i686-2.7/shadowsocks
+
+copying shadowsocks/daemon.py -> build/lib.linux-i686-2.7/shadowsocks
+
+copying shadowsocks/encrypt.py -> build/lib.linux-i686-2.7/shadowsocks
+
+copying shadowsocks/lru_cache.py -> build/lib.linux-i686-2.7/shadowsocks
+
+copying shadowsocks/eventloop.py -> build/lib.linux-i686-2.7/shadowsocks
+
+copying shadowsocks/asyncdns.py -> build/lib.linux-i686-2.7/shadowsocks
+
+creating build/lib.linux-i686-2.7/shadowsocks/crypto
+
+copying shadowsocks/crypto/openssl.py -> build/lib.linux-i686-2.7/shadowsocks/crypto
+
+copying shadowsocks/crypto/__init__.py -> build/lib.linux-i686-2.7/shadowsocks/crypto
+
+copying shadowsocks/crypto/rc4_md5.py -> build/lib.linux-i686-2.7/shadowsocks/crypto
+
+copying shadowsocks/crypto/util.py -> build/lib.linux-i686-2.7/shadowsocks/crypto
+
+copying shadowsocks/crypto/sodium.py -> build/lib.linux-i686-2.7/shadowsocks/crypto
+
+copying shadowsocks/crypto/table.py -> build/lib.linux-i686-2.7/shadowsocks/crypto
+
+running install_lib
+
+creating /usr/local/lib/python2.7/dist-packages/shadowsocks
+
+error: could not create '/usr/local/lib/python2.7/dist-packages/shadowsocks': Permission denied
+
+----------------------------------------
+Cleaning up...
+  Removing temporary dir /tmp/pip_build_zhang...
+Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_zhang/shadowsocks/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-zPlTLx-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip_build_zhang/shadowsocks
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 283, in run
+    requirement_set.install(install_options, global_options, root=options.root_path)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1435, in install
+    requirement.install(install_options, global_options, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 706, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/lib/python2.7/dist-packages/pip/util.py", line 697, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+InstallationError: Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_zhang/shadowsocks/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-zPlTLx-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip_build_zhang/shadowsocks

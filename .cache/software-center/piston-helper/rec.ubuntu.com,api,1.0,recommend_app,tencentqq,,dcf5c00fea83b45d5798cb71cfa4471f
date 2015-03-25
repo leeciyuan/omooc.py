@@ -1,0 +1,20 @@
+status: 200
+content-length: 91
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/tencentqq/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Mon, 23 Mar 2015 03:39:56 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Mon, 23 Mar 2015 03:34:56 GMT
+etag: "13eeb5a5b7f72d11257af631c2d46119"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Mon, 23 Mar 2015 03:34:56 GMT
+content-type: application/json; charset=utf-8
+
+{
+    "rid": "8a68f39b78322389596dca4b9f292162", 
+    "data": [], 
+    "app": "tencentqq"
+}

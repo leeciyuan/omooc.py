@@ -1,0 +1,1012 @@
+﻿/*----------------------------------------------ajax------------------------------------------------------*/
+var xmlReq = false; 
+
+function createXMLHttpRequest() 
+{
+     if(window.XMLHttpRequest)
+    {
+        xmlReq = new XMLHttpRequest();
+        if(xmlReq.overrideMimeType)  xmlReq.overrideMimeType('text/xml');
+    }
+    else if(window.ActiveXObject)
+    { 
+       try
+       {
+            xmlReq = new ActiveXObject('Msxml2.XMLHTTP');
+       }
+       catch(e)
+       {
+          try
+          {
+              xmlReq = new ActiveXObject('Microsoft.XMLHTTP');
+          }
+          catch(e){}
+        }
+    }
+}
+
+var XMLHttp = {
+_createXMLHttpRequest : function()
+     {     
+         if (window.XMLHttpRequest)
+         {
+             var objXMLHttp = new XMLHttpRequest();
+
+         }
+         else
+         {                      
+             var MSXML = ['MSXML2.XMLHTTP', 'Microsoft.XMLHTTP'];
+             var Count = MSXML.length;
+             for(var i = 0; i < Count; i ++)
+             {
+                 try
+                 {
+                     var objXMLHttp = new ActiveXObject(MSXML[i]);        
+                     break;
+                 }
+                 catch(e)
+                 {
+                 }
+             }
+          }          
+        
+         // mozilla某些版本没有readyState属性
+         if (objXMLHttp.readyState == null)
+         {
+             objXMLHttp.readyState = 0;
+
+             objXMLHttp.addEventListener("load", function ()
+                 {
+                     objXMLHttp.readyState = 4;
+                    
+                     if (typeof objXMLHttp.onreadystatechange == "function")
+                     {
+                         objXMLHttp.onreadystatechange();
+                     }
+                 },   false);
+         }
+
+         return objXMLHttp;
+     },
+    
+    
+   //method 传递方式(GET,POST)
+   //url http字符串包括查询字符串
+   //data 发送的数据 没有就传 null或''
+   //sendtype 请求方式(true 异步 false 同步)
+   //callback 回调函数  
+   //datatype 编码方式(xml "text/xml",普通 "application/x-www-form-urlencoded; charset=UTF-8"或"application/x-www-form-urlencoded; charset=GB2312")
+_sendRequest : function(method, url, data, sendtype, datatype, callback)
+     {
+         var objXMLHttp = this._createXMLHttpRequest();
+        
+         with(objXMLHttp)
+         {
+             try
+             {
+                 // 加随机数防止缓存
+                 if (url.indexOf("?") > 0)
+                 {
+                     url += "&randnum=" + Math.random();
+                 }
+                 else
+                 {
+                     url += "?randnum=" + Math.random();
+                 }
+                
+                 open(method, url, sendtype);  
+                                                                
+                 setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=gb2312");                                                        
+                 send(data);
+                 onreadystatechange = function ()
+                 {                               
+                     if (objXMLHttp.readyState == 4 && (objXMLHttp.status == 200 || objXMLHttp.status == 304))
+                     {
+                         if(callback != null)
+                         {                             
+                            callback(objXMLHttp);                            
+                         }
+                         else
+                         {
+                           return objXMLHttp.responseText;
+                         }
+                     }
+                 }
+                
+               
+             }
+             catch(e)
+             {
+                
+             }
+         }
+     }    
+    
+}
+/*----------------------------------------------common------------------------------------------------------*/
+var  is_first_focus=0;
+var numberlocation="";//历史充值记录
+//mydd
+var is_mode_get_sale_price_range=false;
+var cur_mode_number_segment_info={number_segment:"",province_name:"",operator_name:"",area_id:"",sale_price:"",product_id:""};   
+var select_location_number_index=-1;//用于历史充值记录上下键选择
+  
+document.getElementById("phone_recharge").onkeyup=keyup;
+document.getElementById("phone_recharge").onkeydown=keydown;
+faceValueChange();
+ 
+String.prototype.trim=function() 
+{ 
+    return this.replace(new RegExp('　','gm'),' ').replace(/(\s*$)|(^\s*)/g, ''); 
+} 
+
+ 
+ String.prototype.startWith=function(str)
+ {
+    if(str==null||str==""||this.length==0||str.length>this.length)
+    return false;
+    if(this.substr(0,str.length)==str)
+    return true;
+    else
+    return false;
+    return true;
+}
+
+//手机号码验证信息
+function isMobil(s) {
+    var patrn = /(^0{0,1}1[3|4|5|6|7|8|9][0-9]{9}$)/;
+    if (!patrn.exec(s)) {
+        return false;
+    }
+    return true;
+} 
+
+//验证整数
+function isInteger( str ){
+    var regu = /^[0-9]{1,}$/;
+    return regu.test(str);
+}
+
+//清空当前号码 信息
+function clear_cur_number_segment_info(obj,mode)
+{
+    switch(mode)
+    {
+        case "all":
+           obj.number_segment="";
+           obj.province_name="";
+           obj.operator_name="";
+           obj.area_id="";
+           obj.sale_price="";
+           obj.product_id="";
+          
+           document.getElementById("operatorName").value="";
+           document.getElementById("product_id").value="";
+           document.getElementById("sale_price").value="";
+           document.getElementById("area_id").value=""; 
+           document.getElementById("provinceName").value="";           
+        break;
+        case "price":
+           obj.sale_price="";
+           obj.product_id="";          
+           document.getElementById("product_id").value="";
+           document.getElementById("sale_price").value="";  
+          
+        break;
+    }
+}
+
+//得到提示的 号码 格式 "136 1111 1111"
+function get_tip_number(number)
+{
+    if(number&&number!="")
+    {
+        var length=number.length;
+        if(length>7)
+        {
+            return number.substr(0,3)+" "+number.substr(3,4)+" "+number.substr(7,length-7);
+        }
+        else
+        {
+            if(length>3)
+            {          
+                return number.substr(0,3)+" "+number.substr(3,length-3);
+            }
+        }        
+    }
+    return number;
+}
+
+function select_location_number(direction,mode)
+{
+
+    var num_list;         
+
+    num_list=document.getElementById("ul_zip_prompt");    
+    var childs = num_list.getElementsByTagName("a");       
+    var ishover=false;
+    for(var i=0;i<childs.length;i++)
+    {  
+           if(select_location_number_index==i)
+           {         
+              ishover=true;
+              if(direction=="up")
+              {
+                    if(i-1>=0){  
+                          childs[i-1].className= "hover";    
+                          childs[i].className= "";
+                          if(mode=="keyup")
+                          {
+                             select_location_number_index=i-1;
+                          }
+                     } 
+                     else
+                     {
+                      
+                        childs[childs.length-1].className= "hover";
+                         
+                        if(i-1>=0)
+                        { 
+                            childs[0].className= "";
+                        }
+                        if(mode=="keyup")
+                        {                    
+                            select_location_number_index=childs.length-1;
+                        }
+                     } 
+              }
+              
+              if(direction=="down")
+              {
+                 if(i+1<=childs.length-1){                  
+                    childs[i+1].className= "hover";    
+                    childs[i].className= "";
+                    if(mode=="keyup")
+                    {
+                        select_location_number_index=i+1;
+                    }
+                 } 
+                 else
+                 {                 
+                    childs[0].className= "hover";  
+                    
+                    if(i-1>=0)
+                    {
+                        childs[childs.length-1].className= ""; 
+                    }
+                    if(mode=="keyup")
+                    {                   
+                        select_location_number_index=0;
+                    }
+                 } 
+              } 
+              
+              if(direction=="enter") 
+              {
+                  select_number(childs[select_location_number_index].innerHTML);
+              }
+              break;      
+          }  
+              
+      }  
+      
+      if(!ishover && childs.length>0)
+      {      
+         childs[0].className= "hover"; 
+         if(mode=="keyup")
+         {   
+         select_location_number_index=0;  
+         }
+      }                    
+   
+}
+function keydown(e)
+{
+    var e=e||event;
+    var currentKey=e.keyCode||e.which||e.charCode;
+    switch(currentKey){      
+         case 38 :          
+             select_location_number("up","keydown");
+             break;  
+         case 40 :  
+              select_location_number("down","keydown");
+             break;           
+     }  
+}
+
+function keyup(e){ 
+    var e=e||event;
+    var currentKey=e.keyCode||e.which||e.charCode;
+    switch(currentKey){      
+         case 38 :          
+             select_location_number("up","keyup");
+             break;  
+         case 40 :  
+              select_location_number("down","keyup");
+             break;  
+         case 13:
+             select_location_number("enter","keyup");
+             break;
+     }  
+   
+}  
+
+var mouse_on_zip_prompt=false;
+function ul_zip_prompt_mouseover()
+{
+    mouse_on_zip_prompt=true;
+}
+function ul_zip_prompt_mouseout()
+{
+    mouse_on_zip_prompt=false;
+}
+//历史手机号码 联想操作
+function set_num_list_html(pattern)
+{
+    var num_list;
+    var result=numberlocation;   
+
+    num_list=document.getElementById("ul_zip_prompt");
+   
+
+    var num_list_iframe=document.getElementById("num_iframe");
+    
+   
+    
+    if(result.startWith("-1"))
+    {
+        num_list.innerHTML="";
+        return;
+    }
+    
+    var numbers=result.split('|');
+    var html="";
+    var counter=0; 
+    for(var i=0;i<numbers.length;i++)
+    {     
+          
+        if(isMobil(numbers[i]))
+        {
+            if(pattern )
+            {      
+                if( numbers[i].startWith(pattern))
+                {
+                    html=html+"<a href='javascript:select_number("+numbers[i]+")'   id='num_list_item_"+counter+"'>"+numbers[i]+"</a>";
+                    counter=counter+1;
+                }
+            }
+            else
+            {           
+                html=html+"<a href='javascript:select_number("+numbers[i]+")'  id='num_list_item_"+counter+"'>"+numbers[i]+"</a>";
+                counter=counter+1;              
+                
+            }            
+        }        
+    }   
+
+    num_list.innerHTML=html;  
+    
+    
+    if(html=="")
+    {
+        num_list.style.display="none";
+        num_list_iframe.style.display="none";
+        
+    }
+    else
+    {
+        if(!isMobil(pattern))
+        {
+            num_list.style.display="block"; 
+            num_list_iframe.style.display="block";
+            num_list_iframe.style.height=num_list.offsetHeight;
+        } 
+        else
+        {
+            num_list.style.display="none";
+            num_list_iframe.style.display="none";
+        }
+    }
+    
+}
+
+//历史弹出层中选中号码
+function select_number(number)
+{      
+    var num_list;
+    var mobile_input;   
+    num_list=document.getElementById("ul_zip_prompt");
+    input=document.getElementById("input_mobile");
+  
+    input.value=number;
+      input.select();
+    show_info();
+    
+    num_list.style.display="none";
+    document.getElementById("num_iframe").style.display="none";
+    mouse_on_zip_prompt=false;
+   
+}
+
+getAdertisement();
+/*----------------------------------------------广告------------------------------------------------------*/  
+function getAdertisement()
+{
+    var outputDataUrl = "output.aspx";    
+    var parsStr = "?Dtype=getAdertisement&adid=1&d="  + Math.random();   
+   
+    var myurl = outputDataUrl + parsStr ;   
+  
+    var aAjax = XMLHttp._sendRequest('GET', myurl, '', true, "text/xml", callback_getAdertisement);
+}
+
+function callback_getAdertisement(originalRequest)
+{ 
+    var str_ad=originalRequest.responseText;
+    var span_Adertisement=document.getElementById("Adertisement");
+    if(str_ad.length==0||str_ad=="-1")
+    {
+        span_Adertisement.innerHTML="";
+    }  
+    
+    else
+    {   
+        var array_ad_info=str_ad.split('∮');
+        if(array_ad_info[1].length==0)
+        {
+            span_Adertisement.innerHTML=array_ad_info[0];
+        }
+        else
+        {
+            span_Adertisement.innerHTML="<a target=\"_blank\" class=\"black\"  href=\""+ array_ad_info[1] +"\">"+array_ad_info[0]+"</a>";
+        }
+    }     
+    
+    
+} 
+    
+/*----------------------------------------------历史充值记录------------------------------------------------------*/  
+    
+function getNumberLocation()
+{
+    var outputDataUrl = "output.aspx";    
+    var parsStr = "?Dtype=getNumberLocation&d="  + Math.random();   
+   
+    var myurl = outputDataUrl + parsStr ;   
+  
+    var aAjax = XMLHttp._sendRequest('GET', myurl, '', true, "text/xml", callback_getNumberLocation);
+}
+
+function callback_getNumberLocation(originalRequest)
+{ 
+    numberlocation=originalRequest.responseText;
+    var mobile_input;      
+    mobile_input=document.getElementById("input_mobile");
+    set_num_list_html(mobile_input);
+} 
+
+/*----------------------------------------------得到上次充值的手机号码------------------------------------------------------*/    
+   
+
+function input_mobile_blur()
+{
+    if(mouse_on_zip_prompt)
+    {
+        return;
+    }
+    var mobile_input=document.getElementById("input_mobile");
+    if(mobile_input.value.length==0)
+    {
+        mobile_input.value="充值号码";
+        mobile_input.style.color="#999";
+        
+        document.getElementById("warn_input_mobile").className="";
+        document.getElementById("number_ntip").style.display="none";
+        //document.getElementById("warn_input_mobile").innerHTML="自动充值(1-10分钟到账)";  
+        
+    }
+    else
+    {  
+          //验证手机号码
+          if(!isMobil(mobile_input.value))
+          {
+             document.getElementById("number_ntip").style.dispaly="block";
+             document.getElementById("warn_input_mobile").className="error";
+             document.getElementById("warn_input_mobile").innerHTML="请输入正确的充值号码";  
+          } 
+          else
+          {
+            document.getElementById("warn_input_mobile").className="";
+            document.getElementById("number_ntip").style.display="none";
+            //document.getElementById("warn_input_mobile").innerHTML="自动充值(1-10分钟到账)";
+          }
+    }
+    
+    document.getElementById("ul_zip_prompt").style.visibility="hidden";
+    document.getElementById("num_iframe").style.visibility="hidden";
+}   
+
+
+
+      
+function input_mobile_focus(e)
+{
+    
+    
+    document.getElementById("ul_zip_prompt").style.visibility="visible";
+    document.getElementById("num_iframe").style.visibility="visible";
+    
+    var mobile_input=document.getElementById("input_mobile");
+    if(mobile_input.value=="充值号码")
+    {
+        mobile_input.value="";
+        mobile_input.style.color="black";            
+    } 
+   
+    if(mobile_input.value.length==11&&!isMobil(mobile_input.value))
+    {
+         document.getElementById("warn_input_mobile").className="error";
+         document.getElementById("number_ntip").style.display="block";
+         document.getElementById("warn_input_mobile").innerHTML="请输入正确的充值号码";  
+    } 
+    else
+    {
+         document.getElementById("warn_input_mobile").className="";
+         document.getElementById("number_ntip").style.display="none";
+         //document.getElementById("warn_input_mobile").innerHTML="自动充值(1-10分钟到账)";
+    } 
+    
+    if(is_first_focus==0)
+    {      
+       var outputDataUrl = "output.aspx";
+       var parsStr = "?Dtype=getLastNumberFacevalue&d="  + Math.random();   
+       var myurl = outputDataUrl + parsStr ;      	    
+   
+       var aAjax = XMLHttp._sendRequest('GET', myurl, '', true, "text/xml", focus_callback);  
+       
+       getNumberLocation();   
+    }
+}
+
+function focus_callback(originalRequest)
+{   
+
+    
+   if(originalRequest.responseText!="-1")
+   {  
+       is_first_focus=1;
+       var return_str_arr=originalRequest.responseText.split('|')
+       if(document.getElementById("input_mobile").value.length==0)
+       {
+           document.getElementById("input_mobile").value=return_str_arr[0];  
+           document.getElementById("input_mobile").select();        
+    //        var obj;    
+    //        obj=document.getElementsByName("czje");
+    //        if(obj!=null){        
+    //            var i;            
+    //            for(i=0;i<obj.length;i++){
+    //                if(obj[i].value== return_str_arr[1]){
+    //                     obj[i].checked="checked";
+    //                    break;          
+    //                }
+    //            }
+    //        }        
+           
+           show_info();
+       }
+   }
+   else
+   {
+     is_first_focus=1;
+   }
+     
+}
+
+/*----------------------------------------------得到 号段 运营商 和地区------------------------------------------------------*/       
+                                 
+ function show_number_segment(number)
+ { 
+    var vnumber;    
+    var outputDataUrl = "output.aspx";        
+    vnumber=number.substring(0,7);
+    
+    var parsStr = "?Dtype=selectNumberSegment&number="+number+"&trim_number="+vnumber+"&d="  + Math.random();   
+   
+    var myurl = outputDataUrl + parsStr ;
+         		    
+     var pars = "";	   	 
+     var functionName ;
+     var aAjax = XMLHttp._sendRequest('GET', myurl, '', true, "text/xml", show_number_segment_callback);       
+             
+ }
+
+
+function show_number_segment_callback(originalRequest)
+{  
+
+
+    if(originalRequest.responseText.startWith("0"))
+    {                           
+        cur_mode_number_segment_info.operator_name="-1";
+        //没查到手机运营商和地区 ，并当前输入已经为11位手机号码
+        if(isMobil(document.getElementById("input_mobile").value))
+        {            
+           document.getElementById("number_ntip").style.display="block";
+           document.getElementById("warn_input_mobile").className="error";
+           document.getElementById("warn_input_mobile").innerHTML="抱歉，暂不支持此号码";
+        } 
+    }
+    else
+    {
+      var str_array=originalRequest.responseText.split("-")  
+      if(str_array.length>1)
+      {           
+          document.getElementById("result_input").style.visibility="visible";
+          document.getElementById("result_input").innerHTML=  '<i></i>'+"<em>"+get_tip_number(document.getElementById("input_mobile").value)+"</em>"+str_array[0]; 
+          var name_array=  str_array[0].split(' ');             
+          cur_mode_number_segment_info.province_name=document.getElementById("provinceName").value=name_array[0];
+          cur_mode_number_segment_info.operator_name=document.getElementById("operatorName").value=name_array[1];
+                
+          document.getElementById("warn_input_mobile").className="msg";
+          document.getElementById("number_ntip").style.display="none";
+          //document.getElementById("warn_input_mobile").innerHTML="自动充值(1-10分钟到账)";  
+          cur_mode_number_segment_info.area_id= document.getElementById("area_id").value=str_array[1];  
+      } 
+      else
+      {
+            document.getElementById("result_input").style.visibility="hidden";     
+      }
+    }
+    faceValueChange();
+ 
+}
+
+/*----------------------------------------------得到销售价范围 或 销售价、产品编号------------------------------------------------------*/                  
+                
+function get_sale_price_byserver(serverProvider,faceValue,area_id,province_name,number)
+{ 
+    var outputDataUrl = "output.aspx";    
+    var parsStr = "?Dtype=getSalePrice&service_provider="+escape(serverProvider)+"&product_sale_price="+faceValue+"&area_id="+area_id+"&province_name="+escape(province_name)+"&number="+number+"&d="  + Math.random();    
+    var myurl = outputDataUrl + parsStr ;    
+    var aAjax = XMLHttp._sendRequest('GET', myurl, '', true, "text/xml", callback_get_sale_price);   
+    
+}
+
+function callback_get_sale_price(originalRequest)
+{ 
+    var result_input;
+    var result=originalRequest.responseText;   
+    result_input=document.getElementById("searched_price"); 
+    result_input.className="amount_intro";    
+    if(result.startWith("-1")||result=="")
+    {    
+        result_input.innerHTML="<i>抱歉，暂时缺货</i>";
+    }
+    else
+    {        
+        var infos=result.split('|');        
+        if(infos.length>2)
+        {
+            if(infos[0]=="salePrice")
+            {
+                result_input.innerHTML="售价:<i>&yen;"+infos[2]+"</i>";        
+                cur_mode_number_segment_info.product_id= document.getElementById("product_id").value=infos[1];
+                cur_mode_number_segment_info.sale_price= document.getElementById("sale_price").value=infos[2];              
+              
+                
+            }
+            if(infos[0]=="range")
+            {   
+                is_mode_get_sale_price_range=true;
+                result_input.innerHTML="售价:<i>&yen;"+infos[1]+" - &yen;"+infos[2]+"</i>";
+            }           
+        } 
+           
+    }
+    
+}
+
+/*----------------------------------------------充值------------------------------------------------------*/                              
+function  recharge()
+{   
+        
+     var  mobile_num=document.getElementById("input_mobile").value; 
+     var  provinceName=document.getElementById("provinceName").value;
+     var operatorName=document.getElementById("operatorName").value;
+     
+     var  product_id=document.getElementById("product_id").value;
+     var  sale_price=document.getElementById("sale_price").value;
+     var  area_id=document.getElementById("area_id").value;     
+     var face_value=document.getElementById("face_value").value;
+     
+     var recharge_remind_date=0;
+
+	var sourceIdKey = document.getElementById("sourceIdKey").value;
+	
+     if(!isMobil(mobile_num)) 
+      {
+      
+         document.getElementById("warn_input_mobile").className="error";
+         document.getElementById("warn_input_mobile").innerHTML="";
+         document.getElementById("number_ntip").style.display="none";
+         return; 
+      }  
+     
+     if(mobile_num==""||provinceName==""||operatorName==""||face_value==""||sale_price==""||area_id==""||product_id==""||!isMobil(mobile_num) || sourceIdKey == "")
+     {      
+        return;
+     }
+     else
+     {
+        
+         var outputDataUrl = "output.aspx";
+	     var parsStr = "?Dtype=recharge&mobile_number=" + mobile_num + "&province_name=" + escape(provinceName) + "&operator_name=" + escape(operatorName) + "&product_id=" + product_id + "&product_sale_price=" + face_value + "&product_bargin_price=" + sale_price + "&area_id=" + area_id + "&sourceIdKey=" + sourceIdKey +"&recharge_remind_date="+recharge_remind_date+"&d=" + Math.random();      
+         var myurl = outputDataUrl + parsStr ;         		    
+       
+        var aAjax = XMLHttp._sendRequest('GET', myurl, '', true, "text/xml", goto_checkPage);       
+     }  
+}
+
+
+
+
+function goto_checkPage(originalRequest)
+{
+  var result=originalRequest.responseText;
+  if(document.getElementById("recharge_form"))
+  {
+    document.getElementById("recharge_form").innerHTML=result;
+  }  
+  
+  
+  
+  if(document.getElementById("btnPay"))
+  {
+        document.getElementById("btnPay").click();
+  }  
+} 
+
+
+/*----------------------------------------------操作------------------------------------------------------*/
+//改变价格      
+function faceValueChange(faceValue)
+{   
+    if(faceValue||faceValue==0)
+    {              
+        if(faceValue==0)
+        {         
+//           var  mydd_check =document.getElementById("face_value_check");
+//           if(mydd_check)
+//           {
+//                
+//                mydd_check.checked=true;
+                var face_value=document.getElementById("face_value_select").value
+                get_sale_price(face_value);
+           //}
+        }
+        else
+        {
+            get_sale_price(faceValue); 
+        }
+    }
+     else
+    {
+       var face_value=document.getElementById("face_value_select").value
+       get_sale_price(face_value);   
+    }    
+   
+}  
+
+function get_sale_price(faceValue)
+{
+    is_mode_get_sale_price_range=false; 
+    document.getElementById("face_value").value=faceValue;    
+    var serverProvider=document.getElementById("operatorName").value;   
+    var area_id=document.getElementById("area_id").value;
+    var province_name=document.getElementById("provinceName").value;
+    var number=document.getElementById("input_mobile").value;
+    var result_input;   
+    result_input=document.getElementById("searched_price");
+    result_input.className="wait";
+    clear_cur_number_segment_info(cur_mode_number_segment_info,"price");   
+    result_input.innerHTML="正在查询价格……";     
+    get_sale_price_byserver(serverProvider,faceValue,area_id,province_name,number);
+    
+}
+
+
+//手机号码输入框 变动
+function  show_info()
+{
+      var inputed_mobile_num=document.getElementById("input_mobile").value.trim();
+      
+      var result_input= document.getElementById("result_input");       
+      
+      
+      //输入验证  每次输入为数字
+      if(!isInteger(inputed_mobile_num))
+      {      
+         var new_mobile_num=inputed_mobile_num;        
+         for(var i=0;i<inputed_mobile_num.length;i++)
+         {         
+            if(!isInteger(inputed_mobile_num.charAt(i)))
+            {            
+               new_mobile_num = new_mobile_num.replace(inputed_mobile_num.charAt(i), "");                             
+            }
+         }
+         inputed_mobile_num=document.getElementById("input_mobile").value=new_mobile_num;
+      } 
+      
+      //历史记录联想操作
+      set_num_list_html(inputed_mobile_num);
+      
+      if(inputed_mobile_num.length==11&&!isMobil(inputed_mobile_num))
+      {
+         document.getElementById("number_ntip").style.display="block";
+         document.getElementById("warn_input_mobile").className="error";
+         document.getElementById("warn_input_mobile").innerHTML="请输入正确的充值号码";  
+      } 
+      else
+      {
+         document.getElementById("warn_input_mobile").className="";
+           document.getElementById("number_ntip").style.display="none";
+         //document.getElementById("warn_input_mobile").innerHTML="自动充值(1-10分钟到账)";
+      }
+        //验证手机号码
+     if(isMobil(inputed_mobile_num))
+     {     
+         if(cur_mode_number_segment_info.operator_name!="-1")
+         {   
+             document.getElementById("warn_input_mobile").className="";
+             document.getElementById("number_ntip").style.display="none";
+             //document.getElementById("warn_input_mobile").innerHTML="自动充值(1-10分钟到账)";
+         }
+         else
+         {  
+            document.getElementById("number_ntip").style.display="block";       
+            document.getElementById("warn_input_mobile").className="error";
+            document.getElementById("warn_input_mobile").innerHTML="抱歉，暂不支持此号码"; 
+         }
+     }
+       
+      
+     if(inputed_mobile_num.length>=7)   
+      { 
+            //号段发生变化，需要重获数据
+            if(inputed_mobile_num.substring(0,7)!=cur_mode_number_segment_info.number_segment)
+            {            
+                clear_cur_number_segment_info(cur_mode_number_segment_info,"all");
+                result_input.innerHTML=  '<i></i><em>'+ get_tip_number(inputed_mobile_num)+'</em> ';
+                cur_mode_number_segment_info.number_segment=inputed_mobile_num.substring(0,7);       
+                show_number_segment(inputed_mobile_num);                
+                        
+            }
+            else
+            {     
+                result_input.style.visibility="visible"; 
+                if(cur_mode_number_segment_info.operator_name=="-1")      
+                {
+                    result_input.innerHTML=  '<i></i><em>'+ get_tip_number(inputed_mobile_num)+'</em> ';
+                }
+                else
+                {                   
+                    result_input.innerHTML=  '<i></i><em>'+ get_tip_number(inputed_mobile_num)+'</em> '+cur_mode_number_segment_info.province_name+" "+cur_mode_number_segment_info.operator_name;
+                }
+                document.getElementById("operatorName").value=cur_mode_number_segment_info.operator_name;
+                document.getElementById("product_id").value=cur_mode_number_segment_info.product_id;
+                document.getElementById("sale_price").value=cur_mode_number_segment_info.sale_price;
+                document.getElementById("area_id").value=cur_mode_number_segment_info.area_id; 
+                document.getElementById("provinceName").value=cur_mode_number_segment_info.province_name; 
+                if(cur_mode_number_segment_info.sale_price=="")
+                {
+                    if(cur_mode_number_segment_info.operator_name!=""&& cur_mode_number_segment_info.operator_name!="-1")
+                    {  
+                        document.getElementById("searched_price").className="amount_intro"
+                        document.getElementById("searched_price").innerHTML="<i>抱歉，暂时缺货</i>";
+                    }
+                }
+                else
+                {
+                    document.getElementById("searched_price").innerHTML="售价：<i>&yen;"+cur_mode_number_segment_info.sale_price+"</i>";
+
+                }
+            }
+      }   
+      else
+      {    
+            //手机号码 红色提示框                    
+            if(inputed_mobile_num.length==0)
+            {
+                result_input.style.visibility="hidden";
+            }
+            else
+            {
+                result_input.style.visibility="visible";
+            }
+            result_input.innerHTML=  '<i></i><em>'+ get_tip_number(inputed_mobile_num)+'</em>';
+            
+            clear_cur_number_segment_info(cur_mode_number_segment_info,"all");
+            if(!is_mode_get_sale_price_range)
+            {
+                faceValueChange(); 
+               
+            }        
+      }  
+}
+
+
+/*----------------------------------------------tab切换------------------------------------------------------*/
+function change_tab_rechange()
+{
+    var phone_box=document.getElementById("phone_box");
+    var shenghuofuwu_iframe=document.getElementById("shenghuofuwu_iframe");
+    phone_box.style.display="block";
+    shenghuofuwu_iframe.style.display="none";
+    var tab_rechange=document.getElementById("tab_rechange");
+    var tab_lottery=document.getElementById("tab_lottery");
+    tab_rechange.className="on";
+    tab_lottery.className="";
+}
+
+function change_tab_lottery()
+{
+    var phone_box=document.getElementById("phone_box");
+    var shenghuofuwu_iframe=document.getElementById("shenghuofuwu_iframe");
+    phone_box.style.display="none";
+    shenghuofuwu_iframe.style.display="block";
+    var tab_rechange=document.getElementById("tab_rechange");
+    var tab_lottery=document.getElementById("tab_lottery");
+    tab_rechange.className="";
+    tab_lottery.className="on";
+}
+        
+      
+     /*----------------------------------------------充值默认提醒------------------------------------------------------*/       
+        function showDefaultDate()
+        {
+            var today=new Date(); 
+            var day=today.getDate();
+            //alert(day);
+            if(day<=3)
+            {
+              document.getElementById("default_remind_day").selectedIndex=27;
+            }  
+            else
+            {
+             document.getElementById("default_remind_day").selectedIndex=day-4;
+            }
+            
+            //alert(day);           
+            
+        }           
+        function GetSelectedValue()
+        {
+             var select_obj=document.getElementById('default_remind_day');
+             var selected_value=select_obj.options[select_obj.selectedIndex].value;
+            // alert(selected_value);
+        }
+        function getRechargeSourceRemind()
+        {
+        
+            var sourceIdKey=document.getElementById("sourceIdKey").value;
+            //alert(sourceIdKey);
+            var outputDataUrl = "output.aspx";    
+            var parsStr = "?Dtype=getRechargeSourceRemind&sourceIdKey="+sourceIdKey+"&d="  + Math.random();              
+            var myurl = outputDataUrl + parsStr ;             
+            var aAjax = XMLHttp._sendRequest('GET', myurl, '', true, "text/xml", callback_getRechargeSourceRemind);
+        }
+        function callback_getRechargeSourceRemind(originalRequest)
+        {         
+          var result=originalRequest.responseText;   
+                    
+        } 
+���Ђ      U�_U�_;)U-�o   F:http://mobilerecharge.dangdang.com/script/mobile_chognzhikuang_ddn.js necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+Content-Length: 34574
+Content-Type: application/x-javascript
+Last-Modified: Mon, 28 Apr 2014 06:05:48 GMT
+Accept-Ranges: bytes
+Etag: "d234b9e6a762cf1:17d3"
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Date: Sat, 14 Mar 2015 04:35:26 GMT
+ uncompressed-len 0   �

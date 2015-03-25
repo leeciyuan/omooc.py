@@ -1,0 +1,11 @@
+#HttpOnly_software-center.ubuntu.com	FALSE	/	TRUE	1428291322	sessionid	".eJx1kkFP3DAQhdWW0t0sLS3QFgqH9lCxqKqzcEHiDAcODZWqOfSALONMNxaJncnYK_awEr31Z-NsslIlxC1jf_PmvXHuny_oGaxf_bzILs8pFi_G8EXOVW5YMjYzo5GldDVak0vtLIcKG0lrujsSS1JUyqopNsnvtvrVtf3oz-jl0V9aX9CrMQxWijS4hmE3JDQlDWGv8L7mszQt3dRYEW6C9UFoV6WwwV413tjpEk1g9ymURjBiZDbOyluc00axBgOpQ9Og9fR65XgVQsTp2s2iw6t4cXne276wee2M9Qm9ib43F_R2DIkulakwlyandxlsxc66VPNYRmXzx2BDWxkkbbq4nNbmNnx-MtG3zgiMtLLOGq3KuPmdDAali9_tjPcZDP28xihlmD5c08cxHLZ6UY5r1Cz6LBZ9qoIv0hMxSbvxtAsHPfofxM0sVXfpsZjQHnx9fI93Hm27OY4oTiN4TJ_gqActi1IFq4tadfjJZHLat3_3qCqmfYQkcFzR8lXp4F8MfAP7j_6cUrGX3t2iLTYDiwetXOQH:1YZt98:Ucqh35ockBsHWCgUP7PjaxGCJSw"
+.login.ubuntu.com	TRUE	/	FALSE	1427082330	__utmt	1
+.ubuntu.com	TRUE	/	FALSE	1427082330	__utmt_b	1
+.ubuntu.com	TRUE	/	FALSE	1490153730	__utma	150249065.1910157830.1427081730.1427081730.1427081730.1
+.ubuntu.com	TRUE	/	FALSE	1427083530	__utmb	150249065.1.10.1427081730
+.ubuntu.com	TRUE	/	FALSE	1442849730	__utmz	150249065.1427081730.1.1.utmcsr=software-center.ubuntu.com|utmccn=(referral)|utmcmd=referral|utmcct=/openid/login/
+#HttpOnly_login.ubuntu.com	FALSE	/	TRUE	1428291377	sessionid	kpvwk216y4k600nhe2ta7gwoz5w5o5sn
+#HttpOnly_login.ubuntu.com	FALSE	/	TRUE	1458531411	csrftoken	9NhIZNn2oXz2Uf3N2ilIKe2tpT0eZe53
+.login.ubuntu.com	TRUE	/	FALSE	1490153811	__utma	147153066.1526526111.1427081730.1427081730.1427081730.1
+.login.ubuntu.com	TRUE	/	FALSE	1427083611	__utmb	147153066.4.10.1427081730
+.login.ubuntu.com	TRUE	/	FALSE	1442849811	__utmz	147153066.1427081730.1.1.utmcsr=software-center.ubuntu.com|utmccn=(referral)|utmcmd=referral|utmcct=/openid/login/

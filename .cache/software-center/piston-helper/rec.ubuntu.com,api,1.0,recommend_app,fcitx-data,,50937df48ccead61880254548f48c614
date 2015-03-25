@@ -1,0 +1,222 @@
+status: 200
+content-length: 4885
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/fcitx-data/
+x-cache: HIT from papeda.canonical.com
+age: 279
+expires: Thu, 12 Mar 2015 14:38:13 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Thu, 12 Mar 2015 14:33:13 GMT
+etag: "eef5777962f439dda7464125a634c5ce"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Thu, 12 Mar 2015 14:33:13 GMT
+content-type: application/json; charset=utf-8
+x-cache-lookup: HIT from papeda.canonical.com:3128
+
+{
+    "rid": "0a98de188c359b729947183ffcfcec49", 
+    "data": [
+        {
+            "package_name": "openfetion", 
+            "similarity": 0.0595
+        }, 
+        {
+            "package_name": "stardict", 
+            "similarity": 0.0572
+        }, 
+        {
+            "package_name": "chmsee", 
+            "similarity": 0.0338
+        }, 
+        {
+            "package_name": "gstm", 
+            "similarity": 0.0332
+        }, 
+        {
+            "package_name": "v4l2ucp", 
+            "similarity": 0.0304
+        }, 
+        {
+            "package_name": "kchmviewer", 
+            "similarity": 0.0283
+        }, 
+        {
+            "package_name": "gmchess", 
+            "similarity": 0.0276
+        }, 
+        {
+            "package_name": "asoundconf-gtk", 
+            "similarity": 0.0271
+        }, 
+        {
+            "package_name": "basex", 
+            "similarity": 0.0259
+        }, 
+        {
+            "package_name": "bovo", 
+            "similarity": 0.0259
+        }, 
+        {
+            "package_name": "galternatives", 
+            "similarity": 0.0256
+        }, 
+        {
+            "package_name": "vim-gnome", 
+            "similarity": 0.0255
+        }, 
+        {
+            "package_name": "goldendict", 
+            "similarity": 0.0253
+        }, 
+        {
+            "package_name": "killbots", 
+            "similarity": 0.0251
+        }, 
+        {
+            "package_name": "gcursor", 
+            "similarity": 0.025
+        }, 
+        {
+            "package_name": "kmplayer", 
+            "similarity": 0.0248
+        }, 
+        {
+            "package_name": "kajongg", 
+            "similarity": 0.0243
+        }, 
+        {
+            "package_name": "kdocker", 
+            "similarity": 0.0243
+        }, 
+        {
+            "package_name": "lskat", 
+            "similarity": 0.0241
+        }, 
+        {
+            "package_name": "kfourinline", 
+            "similarity": 0.0241
+        }, 
+        {
+            "package_name": "kdevelop", 
+            "similarity": 0.0239
+        }, 
+        {
+            "package_name": "klines", 
+            "similarity": 0.0238
+        }, 
+        {
+            "package_name": "kubrick", 
+            "similarity": 0.0236
+        }, 
+        {
+            "package_name": "kolf", 
+            "similarity": 0.0236
+        }, 
+        {
+            "package_name": "desktopnova-tray", 
+            "similarity": 0.0236
+        }, 
+        {
+            "package_name": "jobs-admin", 
+            "similarity": 0.0234
+        }, 
+        {
+            "package_name": "desktopnova", 
+            "similarity": 0.0234
+        }, 
+        {
+            "package_name": "kdiamond", 
+            "similarity": 0.0233
+        }, 
+        {
+            "package_name": "kreversi", 
+            "similarity": 0.0233
+        }, 
+        {
+            "package_name": "plasma-active-data", 
+            "similarity": 0.0233
+        }, 
+        {
+            "package_name": "iptux", 
+            "similarity": 0.0232
+        }, 
+        {
+            "package_name": "kmines", 
+            "similarity": 0.0231
+        }, 
+        {
+            "package_name": "winefish", 
+            "similarity": 0.023
+        }, 
+        {
+            "package_name": "arandr", 
+            "similarity": 0.0228
+        }, 
+        {
+            "package_name": "kollision", 
+            "similarity": 0.0228
+        }, 
+        {
+            "package_name": "umbrello", 
+            "similarity": 0.0228
+        }, 
+        {
+            "package_name": "amor", 
+            "similarity": 0.0228
+        }, 
+        {
+            "package_name": "blogilo", 
+            "similarity": 0.0226
+        }, 
+        {
+            "package_name": "kblackbox", 
+            "similarity": 0.0226
+        }, 
+        {
+            "package_name": "kstars", 
+            "similarity": 0.0225
+        }, 
+        {
+            "package_name": "aptoncd", 
+            "similarity": 0.0225
+        }, 
+        {
+            "package_name": "juk", 
+            "similarity": 0.0224
+        }, 
+        {
+            "package_name": "bomber", 
+            "similarity": 0.0224
+        }, 
+        {
+            "package_name": "kruler", 
+            "similarity": 0.0223
+        }, 
+        {
+            "package_name": "kgoldrunner", 
+            "similarity": 0.0223
+        }, 
+        {
+            "package_name": "obconf", 
+            "similarity": 0.0222
+        }, 
+        {
+            "package_name": "openbox", 
+            "similarity": 0.0222
+        }, 
+        {
+            "package_name": "katomic", 
+            "similarity": 0.0221
+        }, 
+        {
+            "package_name": "gkrellm", 
+            "similarity": 0.0221
+        }, 
+        {
+            "package_name": "konquest", 
+            "similarity": 0.0221
+        }
+    ], 
+    "app": "fcitx-data"
+}

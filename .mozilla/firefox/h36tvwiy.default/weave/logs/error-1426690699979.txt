@@ -1,0 +1,10 @@
+1426690699404	Sync.ErrorHandler	DEBUG	Flushing file log.
+1426690699408	Sync.BrowserIDManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})
+1426690699411	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1426690699411	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1426690699411	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1426690699417	Sync.ErrorHandler	DEBUG	Log cleanup threshold time: 1425826699417
+1426690699417	Sync.ErrorHandler	DEBUG	No logs to clean up.
+1426690699975	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1426690699975	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1426690699978	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

@@ -1,0 +1,36 @@
+status: 200
+content-length: 616
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: http://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/zh_CN/any/any/any/ibus-pinyin/page/1/helpful/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Fri, 13 Mar 2015 04:04:46 GMT
+vary: Accept
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Fri, 13 Mar 2015 03:59:46 GMT
+connection: close
+cache-control: max-age=300
+date: Fri, 13 Mar 2015 03:59:46 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 4, 
+        "hide": false, 
+        "app_name": "", 
+        "language": "zh_CN", 
+        "reviewer_username": "QKmrFX4", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "我个人感觉还是蛮不错。\nNot bad~", 
+        "date_deleted": null, 
+        "summary": "Not bad~", 
+        "version": "1.3.99.20110706-1", 
+        "id": 39839, 
+        "date_created": "2012-02-29 13:58:38", 
+        "reviewer_displayname": "Totoro", 
+        "package_name": "ibus-pinyin", 
+        "distroseries": "oneiric"
+    }
+]

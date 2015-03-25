@@ -1,0 +1,6 @@
+1426863435752	Sync.ErrorHandler	DEBUG	Flushing file log.
+1426863435754	Sync.Service	DEBUG	verifyLogin failed: TokenServerClientServerError({"now":"2015-03-20T14:57:15.750Z","message":"Non-JSON response.","cause":"malformed-response","response_body":"","response_headers":{"content-length":"0","connection":"keep-alive"},"response_status":504}) (resource://gre/modules/services-common/tokenserverclient.js:36:35) JS Stack trace: @tokenserverclient.js:36:36 < @browserid_identity.js:14:1 < @status.js:15:1 < lazyImport/getter/<@main.js:20:5 < WeaveService.prototype.observe/<.notify<@Weave.js:149:13
+1426863435754	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1426863435754	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1426863435755	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1426863435755	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

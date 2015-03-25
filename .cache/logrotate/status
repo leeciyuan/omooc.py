@@ -1,0 +1,24 @@
+logrotate state -- version 2
+"/home/zhang/.cache/upstart/dbus.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/indicator-messages.log" 2015-3-14-12:22:18
+"/home/zhang/.cache/upstart/unity-panel-service-lockscreen.log" 2015-3-22-22:34:20
+"/home/zhang/.cache/upstart/gnome-session-Unity.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/window-stack-bridge.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/im-config.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/unity-settings-daemon.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/hud.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/at-spi2-registryd.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_sogou-qimpanel.116.crash.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/gnome-keyring-gpg.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/indicator-bluetooth.log" 2015-3-22-14:24:1
+"/home/zhang/.cache/upstart/upstart-event-bridge.log" 2015-3-13-12:20:33
+"/home/zhang/.cache/upstart/indicator-session.log" 2015-3-22-14:24:1
+"/home/zhang/.cache/upstart/unity-panel-service.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/indicator-application.log" 2015-3-23-18:12:4
+"/home/zhang/.cache/upstart/ssh-agent.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/indicator-power.log" 2015-3-18-22:12:40
+"/home/zhang/.cache/upstart/indicator-printers.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/gnome-keyring-ssh.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/indicator-sound.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/unity7.log" 2015-3-23-20:6:21
+"/home/zhang/.cache/upstart/update-notifier-release.log" 2015-3-23-20:6:21

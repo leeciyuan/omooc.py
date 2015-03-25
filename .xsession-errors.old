@@ -1,0 +1,13 @@
+fcitx 使用的 script 从 run_im 启动。
+init: unity-settings-daemon main 进程结束, 重新产生
+init: gnome-session (Unity) main 进程 (1848)以状态 1 结束
+init: unity-panel-service main 进程 (1850)以状态 1 结束
+init: indicator-printers main 进程 (1940)以状态 1 结束
+init: hud main 进程 (1845)以状态 1 结束
+init: indicator-bluetooth main 进程 (1921)已经被TERM 信号杀死
+init: indicator-power main 进程 (1923)已经被TERM 信号杀死
+init: indicator-datetime main 进程 (1928)已经被TERM 信号杀死
+init: indicator-session main 进程 (1959)已经被TERM 信号杀死
+init: unity-settings-daemon main 进程 (3861)已经被TERM 信号杀死
+init: indicator-application main 进程 (1960)已经被TERM 信号杀死
+init: Disconnected from notified D-Bus bus

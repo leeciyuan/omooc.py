@@ -1,0 +1,239 @@
+status: 200
+content-length: 5299
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/zim/
+x-cache: MISS from papeda.canonical.com
+x-cache-lookup: HIT from papeda.canonical.com:3128
+expires: Wed, 18 Mar 2015 15:15:36 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Wed, 18 Mar 2015 15:10:36 GMT
+etag: "126148efea4b195cea30fe54bcff0ad1"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Wed, 18 Mar 2015 15:10:36 GMT
+content-type: application/json; charset=utf-8
+
+{
+    "rid": "3890d7c286cb413e156309f61ecdab25", 
+    "data": [
+        {
+            "package_name": "gtg", 
+            "similarity": 0.0727
+        }, 
+        {
+            "package_name": "rednotebook", 
+            "similarity": 0.0691
+        }, 
+        {
+            "package_name": "synapse", 
+            "similarity": 0.0661
+        }, 
+        {
+            "package_name": "gnome-activity-journal", 
+            "similarity": 0.0652
+        }, 
+        {
+            "package_name": "lyx", 
+            "similarity": 0.0613
+        }, 
+        {
+            "package_name": "artha", 
+            "similarity": 0.0609
+        }, 
+        {
+            "package_name": "chmsee", 
+            "similarity": 0.0606
+        }, 
+        {
+            "package_name": "gnote", 
+            "similarity": 0.0594
+        }, 
+        {
+            "package_name": "freemind", 
+            "similarity": 0.0586
+        }, 
+        {
+            "package_name": "goldendict", 
+            "similarity": 0.0583
+        }, 
+        {
+            "package_name": "gcolor2", 
+            "similarity": 0.0571
+        }, 
+        {
+            "package_name": "keepassx", 
+            "similarity": 0.0565
+        }, 
+        {
+            "package_name": "meld", 
+            "similarity": 0.056
+        }, 
+        {
+            "package_name": "focuswriter", 
+            "similarity": 0.0535
+        }, 
+        {
+            "package_name": "basket", 
+            "similarity": 0.0533
+        }, 
+        {
+            "package_name": "anki", 
+            "similarity": 0.0531
+        }, 
+        {
+            "package_name": "vim-gnome", 
+            "similarity": 0.0525
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "pdfshuffler", 
+            "similarity": 0.0516
+        }, 
+        {
+            "package_name": "font-manager", 
+            "similarity": 0.0514
+        }, 
+        {
+            "package_name": "kile", 
+            "similarity": 0.051
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "pdfmod", 
+            "similarity": 0.0509
+        }, 
+        {
+            "package_name": "gitg", 
+            "similarity": 0.0503
+        }, 
+        {
+            "package_name": "terminator", 
+            "similarity": 0.05
+        }, 
+        {
+            "package_name": "spyder", 
+            "similarity": 0.0492
+        }, 
+        {
+            "package_name": "freeplane", 
+            "similarity": 0.049
+        }, 
+        {
+            "package_name": "cherrytree", 
+            "similarity": 0.0484
+        }, 
+        {
+            "package_name": "xournal", 
+            "similarity": 0.0483
+        }, 
+        {
+            "package_name": "agave", 
+            "similarity": 0.0474
+        }, 
+        {
+            "package_name": "speedcrunch", 
+            "similarity": 0.0466
+        }, 
+        {
+            "package_name": "shutter", 
+            "similarity": 0.0463
+        }, 
+        {
+            "package_name": "gnome-specimen", 
+            "similarity": 0.0461
+        }, 
+        {
+            "package_name": "fbreader", 
+            "similarity": 0.046
+        }, 
+        {
+            "package_name": "pyrenamer", 
+            "similarity": 0.0458
+        }, 
+        {
+            "package_name": "bzr", 
+            "similarity": 0.0444
+        }, 
+        {
+            "package_name": "lightread", 
+            "similarity": 0.0443
+        }, 
+        {
+            "package_name": "gnucash", 
+            "similarity": 0.0441
+        }, 
+        {
+            "package_name": "pyroom", 
+            "similarity": 0.0435
+        }, 
+        {
+            "package_name": "midori", 
+            "similarity": 0.0427
+        }, 
+        {
+            "package_name": "calibre", 
+            "similarity": 0.0426
+        }, 
+        {
+            "package_name": "nautilus-actions", 
+            "similarity": 0.0425
+        }, 
+        {
+            "package_name": "scribus", 
+            "similarity": 0.0425
+        }, 
+        {
+            "package_name": "exfalso", 
+            "similarity": 0.0424
+        }, 
+        {
+            "package_name": "screenruler", 
+            "similarity": 0.0418
+        }, 
+        {
+            "package_name": "miro", 
+            "similarity": 0.0417
+        }, 
+        {
+            "package_name": "geany", 
+            "similarity": 0.0417
+        }, 
+        {
+            "package_name": "gpodder", 
+            "similarity": 0.0413
+        }, 
+        {
+            "package_name": "gnome-do", 
+            "similarity": 0.0412
+        }, 
+        {
+            "package_name": "stardict", 
+            "similarity": 0.0411
+        }, 
+        {
+            "package_name": "gsmartcontrol", 
+            "similarity": 0.0409
+        }, 
+        {
+            "package_name": "gummi", 
+            "similarity": 0.0407
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "indicator-weather"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "dictconv"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "chromium-browser"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "unity"
+        }
+    ], 
+    "app": "zim"
+}

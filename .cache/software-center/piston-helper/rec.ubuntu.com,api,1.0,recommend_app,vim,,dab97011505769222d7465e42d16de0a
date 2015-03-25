@@ -1,0 +1,233 @@
+status: 200
+content-length: 5401
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/vim/
+x-cache: MISS from papeda.canonical.com
+x-cache-lookup: HIT from papeda.canonical.com:3128
+expires: Wed, 18 Mar 2015 15:15:19 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Wed, 18 Mar 2015 15:10:19 GMT
+etag: "9d45479a84eecfcbbd712c62f86164f4"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Wed, 18 Mar 2015 15:10:19 GMT
+content-type: application/json; charset=utf-8
+
+{
+    "rid": "f5841c4d592f12c50642ee013bf19a13", 
+    "data": [
+        {
+            "package_name": "ttf-devanagari-fonts", 
+            "similarity": 11.0
+        }, 
+        {
+            "package_name": "tmux", 
+            "similarity": 5.5
+        }, 
+        {
+            "package_name": "ttf-arphic-gbsn00lp", 
+            "similarity": 5.0
+        }, 
+        {
+            "package_name": "ibus-table-extraphrase", 
+            "similarity": 5.0
+        }, 
+        {
+            "package_name": "ibus-chewing", 
+            "similarity": 5.0
+        }, 
+        {
+            "package_name": "default-jre", 
+            "similarity": 2.5
+        }, 
+        {
+            "package_name": "icedtea-netx", 
+            "similarity": 1.6667
+        }, 
+        {
+            "package_name": "python-numpy", 
+            "similarity": 1.5714
+        }, 
+        {
+            "package_name": "ubuntu-desktop", 
+            "similarity": 0.2353
+        }, 
+        {
+            "package_name": "ubuntuone-control-panel-gtk", 
+            "similarity": 0.2308
+        }, 
+        {
+            "package_name": "thunderbird-globalmenu", 
+            "similarity": 0.2308
+        }, 
+        {
+            "package_name": "indicator-appmenu", 
+            "similarity": 0.2308
+        }, 
+        {
+            "package_name": "firefox-globalmenu", 
+            "similarity": 0.2308
+        }, 
+        {
+            "package_name": "appmenu-qt", 
+            "similarity": 0.2308
+        }, 
+        {
+            "package_name": "zip", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "zeitgeist", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "xserver-xorg-video-radeon", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "xserver-xorg-video-openchrome", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "xserver-xorg-video-nouveau", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "xcursor-themes", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "x11-utils", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "util-linux", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "unity-lens-files", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "unity", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "ttf-wqy-microhei", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "ttf-ubuntu-font-family", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "sudo", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "rsync", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "rhythmbox-data", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "python", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "pulseaudio", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "plymouth", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "perl", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "nano", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "make", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "linux-libc-dev", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "light-themes", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "libxcursor1", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "libdrm2", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "indicator-sound", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "indicator-session", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "indicator-power", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "indicator-application", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "gvfs-backends", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "grep", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "gnome-screensaver", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "gnome-online-accounts", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "fonts-kacst", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "dmidecode", 
+            "similarity": 0.2264
+        }, 
+        {
+            "package_name": "cups", 
+            "similarity": 0.2264
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "flashplugin-installer"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "tucan"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "banshee"
+        }
+    ], 
+    "app": "vim"
+}

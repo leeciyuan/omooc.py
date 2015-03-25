@@ -1,0 +1,242 @@
+status: 200
+content-length: 5669
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/xul-ext-ubufox/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Fri, 13 Mar 2015 16:09:08 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Fri, 13 Mar 2015 16:04:08 GMT
+etag: "a6074003a8f75022b98b4a470d274e7a"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Fri, 13 Mar 2015 16:04:08 GMT
+content-type: application/json; charset=utf-8
+
+{
+    "rid": "7fbd1f91ee48a003b74cff8e888a06b8", 
+    "data": [
+        {
+            "package_name": "software-center", 
+            "similarity": 44.8731
+        }, 
+        {
+            "package_name": "software-properties-gtk", 
+            "similarity": 44.0339
+        }, 
+        {
+            "package_name": "firefox", 
+            "similarity": 43.2044
+        }, 
+        {
+            "package_name": "xterm", 
+            "similarity": 42.1886
+        }, 
+        {
+            "package_name": "update-manager", 
+            "similarity": 41.2865
+        }, 
+        {
+            "package_name": "file-roller", 
+            "similarity": 41.1686
+        }, 
+        {
+            "package_name": "yelp", 
+            "similarity": 41.0581
+        }, 
+        {
+            "package_name": "gucharmap", 
+            "similarity": 40.835
+        }, 
+        {
+            "package_name": "gcalctool", 
+            "similarity": 39.9846
+        }, 
+        {
+            "package_name": "system-config-printer-gnome", 
+            "similarity": 39.5849
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "language-selector-gnome", 
+            "similarity": 38.9687
+        }, 
+        {
+            "package_name": "ibus", 
+            "similarity": 38.5344
+        }, 
+        {
+            "package_name": "network-manager-gnome", 
+            "similarity": 38.3334
+        }, 
+        {
+            "package_name": "evince", 
+            "similarity": 31.8925
+        }, 
+        {
+            "package_name": "simple-scan", 
+            "similarity": 30.1023
+        }, 
+        {
+            "package_name": "usb-creator-gtk", 
+            "similarity": 28.9059
+        }, 
+        {
+            "package_name": "gedit", 
+            "similarity": 22.2332
+        }, 
+        {
+            "package_name": "onboard", 
+            "similarity": 21.3121
+        }, 
+        {
+            "package_name": "apturl", 
+            "similarity": 21.1244
+        }, 
+        {
+            "package_name": "libreoffice-writer", 
+            "similarity": 20.7469
+        }, 
+        {
+            "package_name": "libreoffice-draw", 
+            "similarity": 19.8885
+        }, 
+        {
+            "package_name": "libreoffice-math", 
+            "similarity": 19.86
+        }, 
+        {
+            "package_name": "compiz-core", 
+            "similarity": 19.8245
+        }, 
+        {
+            "package_name": "gnome-disk-utility", 
+            "similarity": 19.757
+        }, 
+        {
+            "package_name": "brasero", 
+            "similarity": 19.6743
+        }, 
+        {
+            "package_name": "libreoffice-calc", 
+            "similarity": 19.5213
+        }, 
+        {
+            "package_name": "libreoffice-impress", 
+            "similarity": 19.1392
+        }, 
+        {
+            "package_name": "gnome-media", 
+            "similarity": 18.8664
+        }, 
+        {
+            "package_name": "gnome-terminal", 
+            "similarity": 18.5793
+        }, 
+        {
+            "package_name": "seahorse", 
+            "similarity": 18.3646
+        }, 
+        {
+            "package_name": "transmission-gtk", 
+            "similarity": 18.3044
+        }, 
+        {
+            "package_name": "gnome-power-manager", 
+            "similarity": 18.1555
+        }, 
+        {
+            "package_name": "shotwell", 
+            "similarity": 17.7928
+        }, 
+        {
+            "package_name": "eog", 
+            "similarity": 17.5807
+        }, 
+        {
+            "package_name": "gnome-font-viewer", 
+            "similarity": 17.3745
+        }, 
+        {
+            "package_name": "xdiagnose", 
+            "similarity": 16.6428
+        }, 
+        {
+            "package_name": "gnome-bluetooth", 
+            "similarity": 16.274
+        }, 
+        {
+            "package_name": "gnome-user-share", 
+            "similarity": 15.8998
+        }, 
+        {
+            "package_name": "gnome-sudoku", 
+            "similarity": 15.8497
+        }, 
+        {
+            "package_name": "checkbox-qt", 
+            "similarity": 15.8039
+        }, 
+        {
+            "package_name": "vino", 
+            "similarity": 15.5657
+        }, 
+        {
+            "package_name": "deja-dup", 
+            "similarity": 15.469
+        }, 
+        {
+            "package_name": "gnomine", 
+            "similarity": 15.0057
+        }, 
+        {
+            "package_name": "thunderbird", 
+            "similarity": 14.0414
+        }, 
+        {
+            "package_name": "totem", 
+            "similarity": 13.7874
+        }, 
+        {
+            "package_name": "aisleriot", 
+            "similarity": 13.2524
+        }, 
+        {
+            "package_name": "remmina-common", 
+            "similarity": 12.6087
+        }, 
+        {
+            "package_name": "gnome-orca", 
+            "similarity": 12.5627
+        }, 
+        {
+            "package_name": "landscape-client-ui-install", 
+            "similarity": 12.359
+        }, 
+        {
+            "package_name": "rhythmbox", 
+            "similarity": 10.9969
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "nautilus-dropbox"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "ubuntuone-control-panel-gtk"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "jlgui"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "compizconfig-settings-manager"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "default-jre"
+        }
+    ], 
+    "app": "xul-ext-ubufox"
+}

@@ -1,0 +1,229 @@
+status: 200
+content-length: 5204
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/firefox-launchpad-plugin/
+x-cache: MISS from papeda.canonical.com
+x-cache-lookup: HIT from papeda.canonical.com:3128
+expires: Fri, 13 Mar 2015 16:09:06 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Fri, 13 Mar 2015 16:04:06 GMT
+etag: "a0add0a9a48fff9d964cc8d9e357a473"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Fri, 13 Mar 2015 16:04:06 GMT
+content-type: application/json; charset=utf-8
+
+{
+    "rid": "e04a789bf1b5ce10f56892cd93249b09", 
+    "data": [
+        {
+            "package_name": "groundcontrol", 
+            "similarity": 0.0392
+        }, 
+        {
+            "package_name": "testdrive-gtk", 
+            "similarity": 0.0337
+        }, 
+        {
+            "package_name": "upnp-router-control", 
+            "similarity": 0.0321
+        }, 
+        {
+            "package_name": "galternatives", 
+            "similarity": 0.0319
+        }, 
+        {
+            "package_name": "gstm", 
+            "similarity": 0.0311
+        }, 
+        {
+            "package_name": "oggconvert", 
+            "similarity": 0.0308
+        }, 
+        {
+            "package_name": "smartpm", 
+            "similarity": 0.0307
+        }, 
+        {
+            "package_name": "kdocker", 
+            "similarity": 0.0306
+        }, 
+        {
+            "package_name": "etherape", 
+            "similarity": 0.0297
+        }, 
+        {
+            "package_name": "gromit", 
+            "similarity": 0.0297
+        }, 
+        {
+            "package_name": "uck", 
+            "similarity": 0.0295
+        }, 
+        {
+            "package_name": "gnome-translate", 
+            "similarity": 0.0295
+        }, 
+        {
+            "package_name": "totem-plugin-arte", 
+            "similarity": 0.0295
+        }, 
+        {
+            "package_name": "lshw-gtk", 
+            "similarity": 0.0287
+        }, 
+        {
+            "package_name": "dvd95", 
+            "similarity": 0.0287
+        }, 
+        {
+            "package_name": "gnome-photo-printer", 
+            "similarity": 0.0285
+        }, 
+        {
+            "package_name": "fatrat", 
+            "similarity": 0.0284
+        }, 
+        {
+            "package_name": "gnome-media-player", 
+            "similarity": 0.0283
+        }, 
+        {
+            "package_name": "bzr-explorer", 
+            "similarity": 0.0283
+        }, 
+        {
+            "package_name": "klash", 
+            "similarity": 0.0281
+        }, 
+        {
+            "package_name": "wifi-radar", 
+            "similarity": 0.0278
+        }, 
+        {
+            "package_name": "alltray", 
+            "similarity": 0.0278
+        }, 
+        {
+            "package_name": "openclipart-libreoffice", 
+            "similarity": 0.0275
+        }, 
+        {
+            "package_name": "gmerlin", 
+            "similarity": 0.0266
+        }, 
+        {
+            "package_name": "goobox", 
+            "similarity": 0.0266
+        }, 
+        {
+            "package_name": "fwbuilder", 
+            "similarity": 0.0264
+        }, 
+        {
+            "package_name": "gsmartcontrol", 
+            "similarity": 0.0263
+        }, 
+        {
+            "package_name": "driconf", 
+            "similarity": 0.0261
+        }, 
+        {
+            "package_name": "mountmanager", 
+            "similarity": 0.026
+        }, 
+        {
+            "package_name": "kget", 
+            "similarity": 0.026
+        }, 
+        {
+            "package_name": "gnome-phone-manager", 
+            "similarity": 0.0259
+        }, 
+        {
+            "package_name": "uget", 
+            "similarity": 0.0258
+        }, 
+        {
+            "package_name": "nautilus-scripts-manager", 
+            "similarity": 0.0257
+        }, 
+        {
+            "package_name": "nautilus-actions", 
+            "similarity": 0.0256
+        }, 
+        {
+            "package_name": "gdebi-kde", 
+            "similarity": 0.0255
+        }, 
+        {
+            "package_name": "conduit", 
+            "similarity": 0.0255
+        }, 
+        {
+            "package_name": "gv", 
+            "similarity": 0.0254
+        }, 
+        {
+            "package_name": "arora", 
+            "similarity": 0.0254
+        }, 
+        {
+            "package_name": "choqok", 
+            "similarity": 0.0254
+        }, 
+        {
+            "package_name": "gnome-specimen", 
+            "similarity": 0.0254
+        }, 
+        {
+            "package_name": "jftp", 
+            "similarity": 0.0253
+        }, 
+        {
+            "package_name": "kplayer", 
+            "similarity": 0.0251
+        }, 
+        {
+            "package_name": "gtkhash", 
+            "similarity": 0.025
+        }, 
+        {
+            "package_name": "claws-mail", 
+            "similarity": 0.0249
+        }, 
+        {
+            "package_name": "kcharselect", 
+            "similarity": 0.0248
+        }, 
+        {
+            "package_name": "gnome-format", 
+            "similarity": 0.0247
+        }, 
+        {
+            "package_name": "gnome-color-chooser", 
+            "similarity": 0.0247
+        }, 
+        {
+            "package_name": "gnome-activity-journal", 
+            "similarity": 0.0246
+        }, 
+        {
+            "package_name": "gtkorphan", 
+            "similarity": 0.0243
+        }, 
+        {
+            "package_name": "gftp-gtk", 
+            "similarity": 0.0242
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "balazar"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "wicd-gtk"
+        }
+    ], 
+    "app": "firefox-launchpad-plugin"
+}

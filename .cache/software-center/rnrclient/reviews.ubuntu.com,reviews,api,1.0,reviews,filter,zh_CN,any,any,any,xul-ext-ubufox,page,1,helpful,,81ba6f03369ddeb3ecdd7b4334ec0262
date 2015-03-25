@@ -1,0 +1,55 @@
+status: 200
+content-length: 1258
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: http://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/zh_CN/any/any/any/xul-ext-ubufox/page/1/helpful/
+x-cache: MISS from papeda.canonical.com
+x-cache-lookup: HIT from papeda.canonical.com:3128
+expires: Fri, 13 Mar 2015 16:09:12 GMT
+vary: Accept
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Fri, 13 Mar 2015 16:04:12 GMT
+connection: close
+cache-control: max-age=300
+date: Fri, 13 Mar 2015 16:04:12 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Ubufox extension for Firefox", 
+        "language": "zh_CN", 
+        "reviewer_username": "fuhaoyun", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 0, 
+        "review_text": "必需品！", 
+        "date_deleted": null, 
+        "summary": "必需品！", 
+        "version": "1.0-0ubuntu2", 
+        "id": 27485, 
+        "date_created": "2011-10-29 11:51:53", 
+        "reviewer_displayname": "fuhaoyun", 
+        "package_name": "xul-ext-ubufox", 
+        "distroseries": "oneiric"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Ubufox extension for Firefox", 
+        "language": "zh_CN", 
+        "reviewer_username": "nwcf4Km", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "很好的软件！", 
+        "date_deleted": null, 
+        "summary": "很好的软件！", 
+        "version": "0.9.1-0ubuntu0.11.04.1", 
+        "id": 15055, 
+        "date_created": "2011-07-09 04:17:47", 
+        "reviewer_displayname": "gf0710020216", 
+        "package_name": "xul-ext-ubufox", 
+        "distroseries": "natty"
+    }
+]

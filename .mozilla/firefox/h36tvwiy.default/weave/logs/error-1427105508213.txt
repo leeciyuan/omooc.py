@@ -1,0 +1,124 @@
+1427105500523	Sync.Service	INFO	Loading Weave 1.38.0
+1427105500525	Sync.Engine.Clients	DEBUG	Engine initialized
+1427105500526	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1427105500530	Sync.Engine.Bookmarks	DEBUG	Engine initialized
+1427105500533	Sync.Engine.Forms	DEBUG	Engine initialized
+1427105500538	Sync.Engine.History	DEBUG	Engine initialized
+1427105500541	Sync.Engine.Passwords	DEBUG	Engine initialized
+1427105500543	Sync.Engine.Prefs	DEBUG	Engine initialized
+1427105500546	Sync.Engine.Tabs	DEBUG	Engine initialized
+1427105500547	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1427105500552	Sync.Engine.Addons	DEBUG	Engine initialized
+1427105500553	Sync.Service	INFO	Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:36.0) Gecko/20100101 Firefox/36.0
+1427105500556	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1427105500557	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1427105500557	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-186-us-west-2.sync.services.mozilla.com/1.5/21274104/
+1427105500558	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1427105500558	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1427105500558	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1427105500559	Sync.Tracker.History	INFO	Adding Places observer.
+1427105500584	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1427105500585	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1427105500586	FirefoxAccounts	DEBUG	got keyPair
+1427105500586	FirefoxAccounts	DEBUG	getCertificateSigned: true true
+1427105501445	FirefoxAccounts	DEBUG	getCertificate got a new one: true
+1427105501446	FirefoxAccounts	DEBUG	getAssertionFromCert
+1427105501448	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1427105501449	Sync.BrowserIDManager	DEBUG	Getting a token
+1427105502985	Sync.BrowserIDManager	DEBUG	Successfully got a sync token
+1427105502986	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for undefined
+1427105502986	Sync.BrowserIDManager	INFO	Background fetch for key bundle done
+1427105502986	Sync.Status	DEBUG	Status.login: success.login => success.login
+1427105502987	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1427105504781	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1427105504788	Sync.Service	DEBUG	User-Agent: Firefox/36.0.1 FxSync/1.38.0.20150306140238.
+1427105504788	Sync.Service	INFO	Starting sync at 2015-03-23 18:11:44
+1427105504788	Sync.Service	DEBUG	In sync: should login.
+1427105504789	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1427105504789	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1427105504789	Sync.Service	INFO	Logging in the user.
+1427105504790	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-186-us-west-2.sync.services.mozilla.com/1.5/21274104/
+1427105504790	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1427105504791	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1427105505223	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.
+1427105505905	Sync.Resource	DEBUG	mesg: GET success 200 https://sync-186-us-west-2.sync.services.mozilla.com/1.5/21274104/info/collections
+1427105505905	Sync.Resource	DEBUG	GET success 200 https://sync-186-us-west-2.sync.services.mozilla.com/1.5/21274104/info/collections
+1427105505905	Sync.Service	DEBUG	Fetching global metadata record
+1427105505906	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1427105506636	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1427105506646	Sync.Resource	DEBUG	mesg: GET success 200 https://sync-186-us-west-2.sync.services.mozilla.com/1.5/21274104/storage/meta/global
+1427105506646	Sync.Resource	DEBUG	GET success 200 https://sync-186-us-west-2.sync.services.mozilla.com/1.5/21274104/storage/meta/global
+1427105506647	Sync.Service	DEBUG	Clearing cached meta record. metaModified is undefined, setting to 1426257032.89
+1427105506648	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1427105506915	Sync.Resource	DEBUG	mesg: GET success 200 https://sync-186-us-west-2.sync.services.mozilla.com/1.5/21274104/storage/meta/global
+1427105506915	Sync.Resource	DEBUG	GET success 200 https://sync-186-us-west-2.sync.services.mozilla.com/1.5/21274104/storage/meta/global
+1427105506915	Sync.Service	DEBUG	Weave Version: 1.38.0 Local Storage: 5 Remote Storage: 5
+1427105506915	Sync.Service	INFO	Sync key is up-to-date: no need to upgrade.
+1427105506915	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1427105506915	Sync.Service	INFO	Testing info/collections: {"passwords":1427081664.4,"tabs":1427086515.11,"clients":1427086514.45,"crypto":1426257025.45,"forms":1427081664.93,"meta":1426257032.89,"bookmarks":1427080382.64,"prefs":1426257026.99,"history":1427086515.54}
+1427105506915	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 0
+1427105506915	Sync.Service	INFO	collection keys reports that a key update is needed.
+1427105506916	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1427105507147	Sync.Resource	DEBUG	mesg: GET success 200 https://sync-186-us-west-2.sync.services.mozilla.com/1.5/21274104/storage/crypto/keys
+1427105507148	Sync.Resource	DEBUG	GET success 200 https://sync-186-us-west-2.sync.services.mozilla.com/1.5/21274104/storage/crypto/keys
+1427105507148	Sync.CollectionKeyManager	INFO	Updating collection keys...
+1427105507150	Sync.CollectionKeyManager	INFO	Setting collection keys contents. Our last modified: 0, input modified: 1426257025.45.
+1427105507150	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for [default]
+1427105507151	Sync.CollectionKeyManager	INFO	Processing downloaded per-collection keys.
+1427105507151	Sync.CollectionKeyManager	INFO	Clearing collection keys...
+1427105507151	Sync.CollectionKeyManager	INFO	Saving downloaded keys.
+1427105507151	Sync.CollectionKeyManager	INFO	Bumping last modified to 1426257025.45
+1427105507151	Sync.CollectionKeyManager	INFO	Collection keys updated.
+1427105507151	Sync.Status	DEBUG	Status.login: success.login => success.login
+1427105507151	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1427105507152	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1427105507154	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1427105507155	Sync.Status	INFO	Resetting Status.
+1427105507155	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1427105507156	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1427105507804	Sync.Resource	DEBUG	mesg: GET success 200 https://sync-186-us-west-2.sync.services.mozilla.com/1.5/21274104/info/collections?v=1.38.0
+1427105507804	Sync.Resource	DEBUG	GET success 200 https://sync-186-us-west-2.sync.services.mozilla.com/1.5/21274104/info/collections?v=1.38.0
+1427105507805	Sync.Service	DEBUG	Fetching global metadata record
+1427105507805	Sync.Service	DEBUG	Weave Version: 1.38.0 Local Storage: 5 Remote Storage: 5
+1427105507805	Sync.Service	INFO	Sync key is up-to-date: no need to upgrade.
+1427105507805	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1427105507805	Sync.Service	INFO	Testing info/collections: {"passwords":1427081664.4,"tabs":1427086515.11,"clients":1427086514.45,"crypto":1426257025.45,"forms":1427081664.93,"meta":1426257032.89,"bookmarks":1427080382.64,"prefs":1426257026.99,"history":1427086515.54}
+1427105507806	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1426257025.45
+1427105507806	Sync.Synchronizer	DEBUG	Refreshing client list.
+1427105507806	Sync.Engine.Clients	DEBUG	First sync, uploading all items
+1427105507807	Sync.Engine.Clients	INFO	1 outgoing items pre-reconciliation
+1427105507808	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1427105508185	Sync.Status	DEBUG	Status for engine clients: error.engine.reason.unknown_fail
+1427105508185	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed_partial
+1427105508185	Sync.ErrorHandler	DEBUG	clients failed: Error: App. Quitting (resource://services-sync/resource.js:402:18) JS Stack trace: waitForSyncCallback@async.js:101:11 < Res__request@resource.js:398:13 < Res_get@resource.js:422:11 < SyncEngine.prototype._processIncoming@engines.js:1085:17 < SyncEngine.prototype._sync@engines.js:1497:6 < WrappedNotify@util.js:148:20 < Engine.prototype.sync@engines.js:657:4 < _syncEngine@enginesync.js:199:6 < sync@enginesync.js:91:9 < onNotify@service.js:1275:6 < WrappedNotify@util.js:148:20 < WrappedLock@util.js:103:15 < _lockedSync@service.js:1265:11 < sync/<@service.js:1257:13 < WrappedCatch@util.js:77:15 < sync@service.js:1245:4 < Res_get@resource.js:422:12 < SyncEngine.prototype._processIncoming@engines.js:1085:18 < SyncEngine.prototype._sync@engines.js:1497:7 < WrappedNotify@util.js:148:21 < Engine.prototype.sync@engines.js:657:5 < _syncEngine@enginesync.js:199:7 < sync@enginesync.js:91:10 < onNotify@service.js:1275:7 < WrappedNotify@util.js:148:21 < WrappedLock@util.js:103:16 < _lockedSync@service.js:1265:12 < sync/<@service.js:1257:14 < WrappedCatch@util.js:77:16 < sync@service.js:1245:5
+1427105508185	Sync.Synchronizer	INFO	Updating enabled engines: 1 clients.
+1427105508187	Sync.Engine.Prefs	INFO	0 outgoing items pre-reconciliation
+1427105508188	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1427105508189	Sync.Engine.Passwords	INFO	0 outgoing items pre-reconciliation
+1427105508190	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1427105508191	Sync.Engine.Tabs	DEBUG	First sync, uploading all items
+1427105508191	Sync.Engine.Tabs	INFO	1 outgoing items pre-reconciliation
+1427105508192	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1427105508193	Sync.BrowserIDManager	ERROR	Failed to fetch a token for authentication: [Exception... "App. Quitting"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://services-common/async.js :: checkAppReady/onQuitApplication/Async.checkAppReady :: line 126"  data: no]
+1427105508195	Sync.Status	DEBUG	Status for engine tabs: error.engine.reason.unknown_fail
+1427105508195	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => error.sync.failed_partial
+1427105508195	Sync.ErrorHandler	DEBUG	tabs failed: Error: App. Quitting (resource://services-sync/resource.js:402:18) JS Stack trace: waitForSyncCallback@async.js:101:11 < Res__request@resource.js:398:13 < Res_get@resource.js:422:11 < SyncEngine.prototype._processIncoming@engines.js:1085:17 < SyncEngine.prototype._sync@engines.js:1497:6 < WrappedNotify@util.js:148:20 < Engine.prototype.sync@engines.js:657:4 < _syncEngine@enginesync.js:199:6 < sync@enginesync.js:149:14 < onNotify@service.js:1275:6 < WrappedNotify@util.js:148:20 < WrappedLock@util.js:103:15 < _lockedSync@service.js:1265:11 < sync/<@service.js:1257:13 < WrappedCatch@util.js:77:15 < sync@service.js:1245:4 < Res_get@resource.js:422:12 < SyncEngine.prototype._processIncoming@engines.js:1085:18 < SyncEngine.prototype._sync@engines.js:1497:7 < WrappedNotify@util.js:148:21 < Engine.prototype.sync@engines.js:657:5 < _syncEngine@enginesync.js:199:7 < sync@enginesync.js:149:15 < onNotify@service.js:1275:7 < WrappedNotify@util.js:148:21 < WrappedLock@util.js:103:16 < _lockedSync@service.js:1265:12 < sync/<@service.js:1257:14 < WrappedCatch@util.js:77:16 < sync@service.js:1245:5
+1427105508197	Sync.Engine.Bookmarks	INFO	0 outgoing items pre-reconciliation
+1427105508199	Sync.Status	DEBUG	Status for engine bookmarks: error.engine.reason.unknown_fail
+1427105508199	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => error.sync.failed_partial
+1427105508200	Sync.ErrorHandler	DEBUG	bookmarks failed: [Exception... "App. Quitting"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://services-common/async.js :: checkAppReady/onQuitApplication/Async.checkAppReady :: line 126"  data: no] Stack trace: checkAppReady/onQuitApplication/Async.checkAppReady()@resource://services-common/async.js:126 < waitForSyncCallback()@resource://services-common/async.js:101 < makeSpinningCallback/callback.wait()@resource://services-common/async.js:145 < _syncStart()@resource://gre/modules/services-sync/engines/bookmarks.js:370 < SyncEngine.prototype._sync()@resource://services-sync/engines.js:1495 < wrappedSync()@resource://gre/modules/services-sync/engines/bookmarks.js:217 < _sync()@resource://gre/modules/services-sync/engines/bookmarks.js:214 < WrappedNotify()@resource://services-sync/util.js:148 < Engine.prototype.sync()@resource://services-sync/engines.js:657 < _syncEngine()@resource://services-sync/stages/enginesync.js:199 < sync()@resource://services-sync/stages/enginesync.js:149 < onNotify()@resource://gre/modules/services-sync/service.js:1275 < WrappedNotify()@resource://services-sync/util.js:148 < WrappedLock()@resource://services-sync/util.js:103 < _lockedSync()@resource://gre/modules/services-sync/service.js:1265 < sync/<()@resource://gre/modules/services-sync/service.js:1257 < WrappedCatch()@resource://services-sync/util.js:77 < sync()@resource://gre/modules/services-sync/service.js:1245 < <file:unknown>
+1427105508200	Sync.Engine.Addons	DEBUG	Refreshing reconciler state
+1427105508200	Sync.AddonsReconciler	INFO	Refreshing global state from AddonManager.
+1427105508201	Sync.Status	DEBUG	Status for engine addons: error.engine.reason.unknown_fail
+1427105508201	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => error.sync.failed_partial
+1427105508202	Sync.ErrorHandler	DEBUG	addons failed: [Exception... "App. Quitting"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://services-common/async.js :: checkAppReady/onQuitApplication/Async.checkAppReady :: line 126"  data: no] Stack trace: checkAppReady/onQuitApplication/Async.checkAppReady()@resource://services-common/async.js:126 < waitForSyncCallback()@resource://services-common/async.js:101 < makeSpinningCallback/callback.wait()@resource://services-common/async.js:145 < _ensureStateLoaded()@resource://gre/modules/services-sync/addonsreconciler.js:579 < pruneChangesBeforeDate()@resource://gre/modules/services-sync/addonsreconciler.js:526 < _syncCleanup()@resource://gre/modules/services-sync/engines/addons.js:218 < SyncEngine.prototype._sync()@resource://services-sync/engines.js:1502 < WrappedNotify()@resource://services-sync/util.js:148 < Engine.prototype.sync()@resource://services-sync/engines.js:657 < _syncEngine()@resource://services-sync/stages/enginesync.js:199 < sync()@resource://services-sync/stages/enginesync.js:149 < onNotify()@resource://gre/modules/services-sync/service.js:1275 < WrappedNotify()@resource://services-sync/util.js:148 < WrappedLock()@resource://services-sync/util.js:103 < _lockedSync()@resource://gre/modules/services-sync/service.js:1265 < sync/<()@resource://gre/modules/services-sync/service.js:1257 < WrappedCatch()@resource://services-sync/util.js:77 < sync()@resource://gre/modules/services-sync/service.js:1245 < <file:unknown>
+1427105508203	Sync.Engine.Forms	INFO	0 outgoing items pre-reconciliation
+1427105508204	Sync.Engine.Forms	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1427105508205	Sync.Engine.History	INFO	9 outgoing items pre-reconciliation
+1427105508205	Sync.Engine.History	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1427105508209	Sync.Engine.History	WARN	Error creating record: [Exception... "App. Quitting"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://services-common/async.js :: checkAppReady/onQuitApplication/Async.checkAppReady :: line 126"  data: no] Stack trace: checkAppReady/onQuitApplication/Async.checkAppReady()@resource://services-common/async.js:126 < waitForSyncCallback()@resource://services-common/async.js:101 < querySpinningly()@resource://services-common/async.js:201 < HistStore__findURLByGUID()@resource://gre/modules/services-sync/engines/history.js:165 < createRecord()@resource://gre/modules/services-sync/engines/history.js:333 < SyncEngine.prototype._createRecord()@resource://services-sync/engines.js:831 < SyncEngine.prototype._uploadOutgoing()@resource://services-sync/engines.js:1428 < SyncEngine.prototype._sync()@resource://services-sync/engines.js:1499 < WrappedNotify()@resource://services-sync/util.js:148 < Engine.prototype.sync()@resource://services-sync/engines.js:657 < _syncEngine()@resource://services-sync/stages/enginesync.js:199 < sync()@resource://services-sync/stages/enginesync.js:149 < onNotify()@resource://gre/modules/services-sync/service.js:1275 < WrappedNotify()@resource://services-sync/util.js:148 < WrappedLock()@resource://services-sync/util.js:103 < _lockedSync()@resource://gre/modules/services-sync/service.js:1265 < sync/<()@resource://gre/modules/services-sync/service.js:1257 < WrappedCatch()@resource://services-sync/util.js:77 < sync()@resource://gre/modules/services-sync/service.js:1245 < <file:unknown>
+1427105508210	Sync.Status	DEBUG	Status for engine history: error.engine.reason.unknown_fail
+1427105508211	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => error.sync.failed_partial
+1427105508211	Sync.ErrorHandler	DEBUG	history failed: [Exception... "App. Quitting"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://services-common/async.js :: checkAppReady/onQuitApplication/Async.checkAppReady :: line 126"  data: no] Stack trace: checkAppReady/onQuitApplication/Async.checkAppReady()@resource://services-common/async.js:126 < waitForSyncCallback()@resource://services-common/async.js:101 < _sleep()@resource://services-sync/engines.js:275 < SyncEngine.prototype._uploadOutgoing()@resource://services-sync/engines.js:1443 < SyncEngine.prototype._sync()@resource://services-sync/engines.js:1499 < WrappedNotify()@resource://services-sync/util.js:148 < Engine.prototype.sync()@resource://services-sync/engines.js:657 < _syncEngine()@resource://services-sync/stages/enginesync.js:199 < sync()@resource://services-sync/stages/enginesync.js:149 < onNotify()@resource://gre/modules/services-sync/service.js:1275 < WrappedNotify()@resource://services-sync/util.js:148 < WrappedLock()@resource://services-sync/util.js:103 < _lockedSync()@resource://gre/modules/services-sync/service.js:1265 < sync/<()@resource://gre/modules/services-sync/service.js:1257 < WrappedCatch()@resource://services-sync/util.js:77 < sync()@resource://gre/modules/services-sync/service.js:1245 < <file:unknown>
+1427105508212	Sync.Synchronizer	INFO	Sync completed at 2015-03-23 18:11:48 after 1.06 secs.
+1427105508213	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

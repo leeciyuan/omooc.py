@@ -1,0 +1,149 @@
+<?xml version="1.0" standalone="yes"?>
+<rhythmdb version="1.9">
+  <entry type="song">
+    <title>Track01</title>
+    <genre>&#xD0;&#xC2;&#xB6;&#xAB;&#xB7;&#xBD;</genre>
+    <artist>&#x672A;&#x77E5;</artist>
+    <album>&#xD0;&#xC2;&#xCD;&#xD0;&#xB8;&#xA3;&#xBF;&#xBC;&#xCA;&#xD4;&#xD7;&#xA8;&#xCF;&#xEE;&#xBD;&#xF8;&#xBD;&#xD7;&#xA1;&#xAA;&#xA1;&#xAA;&#xD6;&#xD0;&#xBC;&#xB6;&#xCC;&#xFD;&#xC1;&#xA6;</album>
+    <track-number>1</track-number>
+    <duration>112</duration>
+    <file-size>2707804</file-size>
+    <location>file:///media/zhang/%E6%96%B0%E5%8A%A0%E5%8D%B7/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/%E5%BF%AB%E7%9B%98/A%E6%89%98%E7%A6%8Ftoefl/listening/%E4%B8%AD%E7%BA%A7%E5%90%AC%E5%8A%9B/01/Track01.mp3</location>
+    <mountpoint>file:///media/zhang/%E6%96%B0%E5%8A%A0%E5%8D%B7</mountpoint>
+    <mtime>1246328817</mtime>
+    <first-seen>1426396428</first-seen>
+    <last-seen>1426421284</last-seen>
+    <bitrate>191</bitrate>
+    <date>733408</date>
+    <media-type>audio/mpeg</media-type>
+    <hidden>1</hidden>
+    <comment>&#xD0;&#xC2;&#xB6;&#xAB;&#xB7;&#xBD;&#xCD;&#xF8;&#xA3;&#xBA;www.neworiental.org</comment>
+    <composer>&#x672A;&#x77E5;</composer>
+  </entry>
+  <entry type="iradio">
+    <title>WKNC 88.1 FM (NC State) (High Quality)</title>
+    <genre>Music</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://wknc.sma.ncsu.edu:8000/wknchq.ogg.m3u</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>WKNC 88.1 FM (NC State) (Low Quality)</title>
+    <genre>Music</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://wknc.sma.ncsu.edu:8000/wkncmq.ogg.m3u</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>HBR1.com - Dream Factory</title>
+    <genre>Ambient</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://ubuntu.hbr1.com:19800/ambient.ogg</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>StartFM - 94.2MHz, Vilnius University, Lithuania</title>
+    <genre>Underground</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://eteris.startfm.lt/startfm.ogg</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>WSUM 91.7 FM (University of Wisconsin)</title>
+    <genre>College Radio</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://vu.wsum.wisc.edu/wsumlive.m3u</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Radio Paradise (Low Quality)</title>
+    <genre>Eclectic</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://stream-sd.radioparadise.com:9000/rp_96.ogg</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Radio Paradise (High Quality)</title>
+    <genre>Eclectic</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://stream-tx1.radioparadise.com:9000/rp_192.ogg</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Radio GFM - Electro</title>
+    <genre>Electro</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://streams.radio-gfm.net/electro.ogg.m3u</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>KWUR 90.3 FM St. Louis Underground Radio</title>
+    <genre>&#x672A;&#x77E5;</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://www.kwur.com/icecast/kwurogg.m3u</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>wbur.org - Boston's NPR news source</title>
+    <genre>News</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://audio.wbur.org/stream/live_ogg.m3u</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Radio GFM - RockPop</title>
+    <genre>Pop</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://streams.radio-gfm.net/rockpop.ogg.m3u</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Radio GFM - Metal</title>
+    <genre>Metal</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://streams.radio-gfm.net/metal.ogg.m3u</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>HBR1.com - I.D.M. Tranceponder</title>
+    <genre>Trance</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://ubuntu.hbr1.com:19800/trance.ogg</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>HBR1.com - Tronic Lounge</title>
+    <genre>House</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://ubuntu.hbr1.com:19800/tronic.ogg</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+</rhythmdb>

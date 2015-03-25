@@ -1,0 +1,21 @@
+status: 200
+content-length: 94
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/b43-fwcutter/
+x-cache: HIT from sumac.canonical.com
+age: 25
+expires: Thu, 12 Mar 2015 15:08:05 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Thu, 12 Mar 2015 15:03:05 GMT
+etag: "081be10b69d07143bca1f20852c30f70"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Thu, 12 Mar 2015 15:03:05 GMT
+content-type: application/json; charset=utf-8
+x-cache-lookup: HIT from sumac.canonical.com:3128
+
+{
+    "rid": "08287402f6999725b48fdbc9cf6b72ee", 
+    "data": [], 
+    "app": "b43-fwcutter"
+}

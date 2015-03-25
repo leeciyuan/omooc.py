@@ -1,0 +1,31 @@
+1426430574850	Sync.Service	INFO	Loading Weave 1.38.0
+1426430574855	Sync.Engine.Clients	DEBUG	Engine initialized
+1426430574857	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1426430574863	Sync.Engine.Bookmarks	DEBUG	Engine initialized
+1426430574866	Sync.Engine.Forms	DEBUG	Engine initialized
+1426430574869	Sync.Engine.History	DEBUG	Engine initialized
+1426430574873	Sync.Engine.Passwords	DEBUG	Engine initialized
+1426430574875	Sync.Engine.Prefs	DEBUG	Engine initialized
+1426430574878	Sync.Engine.Tabs	DEBUG	Engine initialized
+1426430574878	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1426430574883	Sync.Engine.Addons	DEBUG	Engine initialized
+1426430574884	Sync.Service	INFO	Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:36.0) Gecko/20100101 Firefox/36.0
+1426430574887	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1426430574888	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1426430574888	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-186-us-west-2.sync.services.mozilla.com/1.5/21274104/
+1426430574889	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1426430574889	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1426430574889	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1426430574890	Sync.Tracker.History	INFO	Adding Places observer.
+1426430574916	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1426430574917	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1426430574921	FirefoxAccounts	DEBUG	got keyPair
+1426430574922	FirefoxAccounts	DEBUG	getCertificateSigned: true true
+1426430578918	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1426430578919	Sync.Service	DEBUG	User-Agent: Firefox/36.0.1 FxSync/1.38.0.20150306140238.
+1426430578919	Sync.Service	INFO	Starting sync at 2015-03-15 22:42:58
+1426430578919	Sync.Service	DEBUG	In sync: should login.
+1426430578920	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1426430578920	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1426430616024	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1426430616024	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

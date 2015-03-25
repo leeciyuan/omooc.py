@@ -1,0 +1,411 @@
+2015-03-11 15:08:32,212 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-11 15:08:34,346 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-11 15:08:34,561 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-11 15:08:34,574 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-11 15:08:34,708 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-11 15:08:34,899 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats']'
+2015-03-11 15:08:34,900 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-03-11 15:08:37,116 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'exhibits', '{"lang": "zh_CN", "series": "trusty"}']'
+2015-03-11 15:08:37,116 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-03-11 15:08:38,617 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'available_apps', '{"lang": "zh_CN", "series": "trusty", "arch": "i386"}']'
+2015-03-11 15:08:38,617 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-03-11 15:08:38,617 - softwarecenter.db.update - WARNING - update_from_software_center_agent: error: 'WARNING:__main__:no data\n'
+2015-03-11 15:08:38,633 - softwarecenter.db.utils - INFO - software-center-agent finished with status 1
+2015-03-11 15:11:24,496 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-11 15:11:24,713 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-11 15:11:24,771 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-11 15:11:24,774 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-11 15:11:24,857 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-11 15:11:25,496 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats']'
+2015-03-11 15:11:25,496 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-03-11 15:11:25,497 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'exhibits', '{"lang": "zh_CN", "series": "trusty"}']'
+2015-03-11 15:11:25,497 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-03-11 15:11:28,551 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'available_apps', '{"lang": "zh_CN", "series": "trusty", "arch": "i386"}']'
+2015-03-11 15:11:28,552 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-03-11 15:11:28,552 - softwarecenter.db.update - WARNING - update_from_software_center_agent: error: 'WARNING:__main__:no data\n'
+2015-03-11 15:11:28,569 - softwarecenter.db.utils - INFO - software-center-agent finished with status 1
+2015-03-11 15:17:15,200 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-11 15:17:15,429 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-11 15:17:15,488 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-11 15:17:15,492 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-11 15:17:15,568 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-11 15:17:15,703 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats']'
+2015-03-11 15:17:15,704 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-03-11 15:17:16,275 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'exhibits', '{"lang": "zh_CN", "series": "trusty"}']'
+2015-03-11 15:17:16,276 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-03-11 15:17:19,551 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'available_apps', '{"lang": "zh_CN", "series": "trusty", "arch": "i386"}']'
+2015-03-11 15:17:19,551 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-03-11 15:17:19,552 - softwarecenter.db.update - WARNING - update_from_software_center_agent: error: 'WARNING:__main__:no data\n'
+2015-03-11 15:17:19,566 - softwarecenter.db.utils - INFO - software-center-agent finished with status 1
+2015-03-11 15:17:39,423 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "plasma-nm"}']'
+2015-03-11 15:17:39,424 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-03-11 15:17:39,424 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:no data
+
+2015-03-11 15:17:39,424 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:no data
+
+2015-03-11 15:17:39,486 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2015-03-12 21:51:04,721 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-12 21:51:06,695 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-12 21:51:06,922 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-12 21:51:06,945 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-12 21:51:07,069 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-12 21:51:07,162 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats']'
+2015-03-12 21:51:07,163 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-03-12 21:51:09,747 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'exhibits', '{"lang": "zh_CN", "series": "trusty"}']'
+2015-03-12 21:51:09,748 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-03-12 21:51:10,671 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "b43-fwcutter"}']'
+2015-03-12 21:51:10,672 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-03-12 21:51:10,672 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:no data
+
+2015-03-12 21:51:10,673 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:no data
+
+2015-03-12 21:51:10,740 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2015-03-12 21:51:10,972 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'available_apps', '{"lang": "zh_CN", "series": "trusty", "arch": "i386"}']'
+2015-03-12 21:51:10,972 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-03-12 21:51:10,973 - softwarecenter.db.update - WARNING - update_from_software_center_agent: error: 'WARNING:__main__:no data\n'
+2015-03-12 21:51:10,993 - softwarecenter.db.utils - INFO - software-center-agent finished with status 1
+2015-03-12 21:51:34,561 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-12 21:51:34,890 - softwarecenter.utils - WARNING - Could not determine the installed desktop file path for app-install desktop file: 'None'
+2015-03-12 21:51:34,890 - softwarecenter.backend.zeitgeist_logger - WARNING - Invalid desktop file provided, impossible to log event
+2015-03-12 22:28:29,095 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-12 22:28:31,205 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-12 22:28:31,459 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-12 22:28:31,485 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-12 22:28:31,609 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-12 22:28:35,516 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2015-03-12 22:28:36,712 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-12 22:28:40,570 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-12 22:28:40,570 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-12 22:31:16,777 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-12 22:31:17,220 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-12 22:31:17,222 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-12 22:31:17,296 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-12 22:31:18,553 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-12 22:31:18,553 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-12 22:31:19,550 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-12 22:31:21,272 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2015-03-12 22:31:22,868 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "sogoupinyin"}']'
+2015-03-12 22:31:22,869 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from papeda.canonical.com', 'age': '226', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'connection': 'close', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 12 Mar 2015 14:27:36 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from papeda.canonical.com:3128'}
+'
+2015-03-12 22:31:22,869 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from papeda.canonical.com', 'age': '226', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'connection': 'close', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 12 Mar 2015 14:27:36 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from papeda.canonical.com:3128'}
+
+2015-03-12 22:31:22,869 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from papeda.canonical.com', 'age': '226', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'connection': 'close', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 12 Mar 2015 14:27:36 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from papeda.canonical.com:3128'}
+
+2015-03-12 22:32:19,565 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-03-12 22:38:52,165 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-12 22:38:52,663 - softwarecenter.backend.zeitgeist_logger - WARNING - Invalid desktop file provided, impossible to log event
+2015-03-12 22:39:02,283 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-12 22:40:11,909 - softwarecenter.ui.gtk3.app - INFO - found a running software-center on dbus, reconnecting
+2015-03-12 22:40:12,592 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2015-03-12 22:40:15,199 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "sogoupinyin"}']'
+2015-03-12 22:40:15,200 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from sumac.canonical.com', 'age': '199', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 12 Mar 2015 14:36:56 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128'}
+'
+2015-03-12 22:40:15,200 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from sumac.canonical.com', 'age': '199', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 12 Mar 2015 14:36:56 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128'}
+
+2015-03-12 22:40:15,201 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from sumac.canonical.com', 'age': '199', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 12 Mar 2015 14:36:56 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128'}
+
+2015-03-12 22:40:31,365 - softwarecenter.ui.gtk3.app - INFO - found a running software-center on dbus, reconnecting
+2015-03-12 22:43:51,641 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-12 22:43:54,821 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-12 22:43:54,824 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-12 22:43:54,927 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-12 22:43:55,387 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-12 22:43:55,388 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-12 22:43:59,166 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2015-03-12 22:44:45,533 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-12 22:44:53,138 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-12 22:44:56,097 - softwarecenter.utils - WARNING - Could not determine the installed desktop file path for app-install desktop file: 'None'
+2015-03-12 22:44:56,097 - softwarecenter.backend.zeitgeist_logger - WARNING - Invalid desktop file provided, impossible to log event
+2015-03-12 22:45:43,809 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-12 22:45:45,186 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-12 22:45:45,217 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-12 22:45:45,301 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-12 22:45:47,132 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-12 22:45:47,132 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-12 22:45:49,595 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-12 22:45:50,461 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/share/software-center/update-software-center-agent', 105, '<module>')'
+2015-03-12 22:45:50,461 - root - WARNING - Another instance of the update agent already holds a write lock on /home/zhang/.cache/software-center/software-center-agent.db.tmp
+2015-03-12 22:45:50,498 - softwarecenter.db.utils - INFO - software-center-agent finished with status 1
+2015-03-12 22:46:02,380 - softwarecenter.ui.gtk3.app - INFO - found a running software-center on dbus, reconnecting
+2015-03-12 22:46:05,527 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "sogoupinyin"}']'
+2015-03-12 22:46:05,528 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from papeda.canonical.com', 'age': '125', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 12 Mar 2015 14:44:00 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from papeda.canonical.com:3128'}
+'
+2015-03-12 22:46:05,528 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from papeda.canonical.com', 'age': '125', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 12 Mar 2015 14:44:00 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from papeda.canonical.com:3128'}
+
+2015-03-12 22:46:05,528 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from papeda.canonical.com', 'age': '125', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 12 Mar 2015 14:44:00 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from papeda.canonical.com:3128'}
+
+2015-03-12 22:49:08,518 - softwarecenter.ui.gtk3.app - INFO - found a running software-center on dbus, reconnecting
+2015-03-12 22:57:11,283 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-12 23:01:45,461 - softwarecenter.ui.gtk3.app - INFO - found a running software-center on dbus, reconnecting
+2015-03-12 23:03:25,463 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-12 23:03:26,228 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-12 23:03:26,230 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-12 23:03:26,371 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-12 23:03:26,734 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-12 23:03:26,755 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-12 23:03:40,344 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-03-12 23:18:43,282 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-12 23:21:40,307 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-12 23:21:40,912 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-12 23:21:40,934 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-12 23:21:41,021 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-12 23:21:41,449 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-12 23:21:41,450 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-12 23:21:54,751 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "sogoupinyin"}']'
+2015-03-12 23:21:54,751 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'MISS from sumac.canonical.com', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 12 Mar 2015 15:21:54 GMT', 'content-type': 'text/html; charset=utf-8'}
+'
+2015-03-12 23:21:54,752 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'MISS from sumac.canonical.com', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 12 Mar 2015 15:21:54 GMT', 'content-type': 'text/html; charset=utf-8'}
+
+2015-03-12 23:21:54,752 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'MISS from sumac.canonical.com', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 12 Mar 2015 15:21:54 GMT', 'content-type': 'text/html; charset=utf-8'}
+
+2015-03-12 23:22:40,356 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-03-13 11:57:02,543 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-13 11:57:04,418 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-13 11:57:04,858 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-13 11:57:04,881 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-13 11:57:04,981 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-13 11:57:08,607 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-13 11:57:08,622 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-13 11:57:09,231 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-13 11:57:15,740 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-03-13 12:48:14,318 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-13 12:48:16,880 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-13 12:48:17,329 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-13 12:48:17,351 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-13 12:48:17,482 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-13 12:48:18,036 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-13 12:48:18,037 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-13 12:48:22,203 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-13 12:48:35,359 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-03-13 13:02:35,327 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-13 13:21:33,326 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-13 22:41:59,262 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-13 22:42:01,653 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-13 22:42:02,260 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-13 22:42:02,289 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-13 22:42:02,440 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-13 22:42:06,399 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-13 22:42:06,409 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-13 22:42:13,240 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-13 22:42:22,935 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-03-13 22:43:19,756 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-13 22:43:20,258 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-13 22:43:20,260 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-13 22:43:20,346 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-13 22:43:20,751 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-13 22:43:20,752 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-13 22:43:22,018 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-13 22:43:27,288 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-03-13 22:43:38,097 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-13 22:43:38,552 - softwarecenter.backend.zeitgeist_logger - WARNING - Invalid desktop file provided, impossible to log event
+2015-03-13 22:43:48,340 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-13 22:52:02,972 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-13 22:52:03,515 - softwarecenter.backend.zeitgeist_logger - WARNING - Invalid desktop file provided, impossible to log event
+2015-03-13 22:52:12,340 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-14 00:02:59,818 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-14 00:03:02,158 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-14 00:03:02,581 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-14 00:03:02,602 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-14 00:03:02,716 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-14 00:03:03,121 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-14 00:03:03,121 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-14 00:03:11,316 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-14 00:03:21,470 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-03-15 13:34:26,235 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-15 13:34:27,700 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-15 13:34:28,186 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-15 13:34:28,207 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-15 13:34:28,353 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-15 13:34:32,742 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-15 13:34:32,756 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-15 13:34:33,522 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-15 13:34:40,445 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-03-17 17:32:17,001 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-17 17:32:19,359 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-17 17:32:19,744 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-17 17:32:19,762 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-17 17:32:19,882 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-17 17:32:26,060 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-17 17:32:26,077 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-17 17:32:26,426 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-17 21:38:57,520 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-17 21:38:59,576 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-17 21:38:59,596 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-17 21:38:59,707 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-17 21:39:03,973 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-17 21:39:03,988 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-18 22:42:28,658 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-18 22:42:30,264 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-18 22:42:30,694 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-18 22:42:30,718 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-18 22:42:30,833 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-18 22:42:34,878 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-18 22:42:34,878 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-18 22:42:53,812 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-18 22:45:02,091 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-18 22:45:02,575 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-18 22:45:02,588 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-18 22:45:02,659 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-18 22:45:04,726 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-18 22:45:04,726 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-18 22:45:04,767 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-18 23:10:07,437 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-18 23:10:08,276 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-18 23:10:08,279 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-18 23:10:08,350 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-18 23:10:08,752 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-18 23:10:08,753 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-18 23:10:10,954 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-18 23:10:34,644 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-03-22 12:56:46,727 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-22 12:56:49,023 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-22 12:56:49,447 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-22 12:56:49,469 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-22 12:56:49,587 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-22 12:56:53,054 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-22 12:56:53,064 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-22 12:56:53,386 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-22 12:57:08,226 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-03-23 11:34:34,779 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-23 11:34:37,343 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-23 11:34:37,921 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-23 11:34:37,946 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-23 11:34:38,112 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-23 11:34:42,981 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-03-23 11:34:42,995 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-03-23 11:34:44,144 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-03-23 11:34:50,405 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
